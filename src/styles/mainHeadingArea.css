@@ -3,6 +3,7 @@
     src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
   }
 .main_heading_area_container{
+    position: relative;
     height: 100vh;
    width: 100vw;
    display:flex;
@@ -16,6 +17,10 @@
     /* font-weight: 100; */
     font-size: 60px;
     width:80vw ;
+   
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
 }
 #header-btn{
     padding:10px 20px;
