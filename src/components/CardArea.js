@@ -1,15 +1,140 @@
 import React from 'react';
 import '../styles/cardArea.css';
 import ReactCardCarousel from "react-card-carousel";
+import Lottie from 'react-lottie';
+import animationData from '../assets/data.json';
+import alertData from '../assets/alert2.json';
+import energy_monitor from '../assets/energy2.json';
+import automatic from '../assets/automatic2.json';
+import power from '../assets/power.png';
+import pattern from '../assets/pattern.png';
 
 
 function CardArea() {
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: animationData,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
+
+    const alertOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: alertData,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    };
+
+    const energyOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: energy_monitor,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    };
+
+    const automaticOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: automatic,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    };
+
     return (
-      <div className="container-style">
-          <div className="card-style">
-            <h1>hello</h1>
-          </div>
-      </div>
+        <div className="root-div">
+            <div className="lottie-area">
+{/* 
+                <Lottie options={defaultOptions}
+                    height="40%"
+                    width="40%"
+                    isStopped={false}
+                    isPaused={false}
+                /> */}
+
+                    <text className="left-text-1">Save Energy</text>  
+                    <text className="left-text">with</text>  
+                    <text className="left-text-2">Intelligent</text>  
+                    <text className="left-text-2">Automation</text>  
+
+
+            </div>
+
+            <div className="container-style">
+                <ReactCardCarousel autoplay={true} autoplay_speed={2500}>
+                    <div className="card1-style">
+                        
+                        <div className="card-content">
+                            <div className="lottie-area">
+                                <Lottie options={alertOptions}
+                                    height="15%"
+                                    width="15%"
+                                    isStopped={false}
+                                    isPaused={false}
+                                />
+                            </div>
+                                <text className="card-heading-text">Real-Time User Alerts</text>  
+                                <text className="card-desc-text">User can enable this option so the system can alert the user whenever there’s a light that is on while no one’s in the room.</text>
+                        </div>
+                        
+                    </div>
+
+                    <div className="card2-style">
+
+                        <div className="card-content">
+                            <div className="lottie-area">
+                                <Lottie options={energyOptions}
+                                    height="40%"
+                                    width="40%"
+                                    isStopped={false}
+                                    isPaused={false}
+                                />
+                            </div>
+                            <text className="card-heading-text">Energy Monitoring</text>
+                            <text className="card-desc-text">Access energy consumption statistics of your home through our App and set the target for the system to save. </text>
+                        </div>
+
+                    </div>
+
+                    <div className="card3-style">
+                        
+                        <div className="card-content">
+                                <img src={pattern} className="icon-style"/>
+                                <text className="card-heading-text">User Pattern Recognition</text>
+                                <text className="card-desc-text">EuclidHome learns the pattern in which users interact with their home and uses that data to optimise power usage. </text>
+                        </div>
+
+                    </div>
+
+                    <div className="card4-style">
+                        
+                        <div className="card-content">
+                                <div className="lottie-area">
+                                    <Lottie options={automaticOptions}
+                                        height="40%"
+                                        width="40%"
+                                        isStopped={false}
+                                        isPaused={false}
+                                    />
+                                </div>
+                                <text className="card-heading-text">Automatic Control</text>  
+                                <text className="card-desc-text">The system automatically detects in-activity in house and  switches off lights.</text>
+                        </div>
+
+                    </div>
+
+                </ReactCardCarousel>
+            </div>
+
+            
+        </div>
     );
   }
 

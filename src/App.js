@@ -4,7 +4,7 @@ import CardArea from './components/CardArea';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <CardArea/>
     </div>
   );

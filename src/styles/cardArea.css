@@ -1,25 +1,149 @@
-.area{
-    background-color: aqua;
+.root-div{
+    width: 100%;
+    background-color: #242424;
+    align-items: stretch;
+    display: flex;
+    height: 800px;
 }
 
 .container-style{
     position: relative;
-    height: 100vh;
-    width: 100%;
     display: flex;
     flex: 1;
     justify-content: center;
-    align-items: middle;
+    align-items: center;
+    margin: 100px;
 }
 
-.card-style{
-    height: 200px;
-    width: 200px;
-    padding-top: 80px;
+.lottie-area{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.left-text{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.left-text-1{
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.left-text-2{
+    color: #0892d0;
+    font-size: 70px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.card-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-heading{
+    flex: 1;
+    flex-direction: row;
+
+}
+
+.icon-style{
+    height: 80px;
+    width: 80px;
+    margin:10px;
+}
+
+.card-heading-text{
+    text-transform: none;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-desc-text{
+    text-transform: none;
+    font-size: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+
+.left-content{
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex: 1;
+    flex-direction: row;
+}
+
+
+.card1-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
     text-align: center;
-    background: #52C0F5;
+    background: #FFA900;
     color: #FFF;
-    font-family: sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card2-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background: #F93154;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card3-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background: #1266F1;
+    color: #FFF;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card4-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    background: #aa00ff;
+    color: #FFF;
     font-size: 12px;
     text-transform: uppercase;
     border-radius: 10px;
