@@ -6,7 +6,7 @@ const MainHeadingArea = () => {
         <div className="main_heading_area_container">
             <div className="main_heading_text">
             <p>An AI enabled automation system that lets you
-take control and saves energy   </p>
+take control and save energy   </p>
 <Button id="header-btn" size="lg">Experience</Button>{' '}
             </div>
   
