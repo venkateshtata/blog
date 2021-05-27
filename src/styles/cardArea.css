@@ -1,15 +1,24 @@
+.root-wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .root-div{
     width: 100vw;
-    background-color: #242424;
-    justify-content: stretch;
-    display: flex;
     height: 100vh;
-    flex-direction: row;
+    background-color: #242424;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
 }
 
 .text-area{
+    width: 50vh;
     display: flex;
-    flex: 1;
     justify-content: center;
     flex-direction: column;    
 }
@@ -23,7 +32,7 @@
 
 .left-text{
     color: white;
-    font-size: 10vh;
+    font-size: 6vw;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;
@@ -31,7 +40,7 @@
 
 .left-text-1{
     color: white;
-    font-size: 10vh;
+    font-size: 6vw;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;
@@ -39,24 +48,21 @@
 
 .left-text-2{
     color: #0892d0;
-    font-size: 10vh;
+    font-size: 6vw;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;
 }
 
 .cards-area{
-    display: flex;
-    margin: 100px;
-    flex: 1;
+    width: 50vw;
     position: relative;
     align-self:center;
-    flex-direction: column;
     align-items: center;
 }
 
 .card-content{
-    margin: 50px;
+    width:30vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,11 +82,9 @@
 }
 
 .card-desc-text{
+    margin-top: 12px;
     text-transform: none;
-    font-size: 15px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-left: 20px;
+    font-size: 0.8vw;
     font-weight: 500;
 }
 
@@ -94,7 +98,7 @@
     text-align: center;
     background: #FFA900;
     color: #FFF;
-    font-size: 12px;
+
     text-transform: uppercase;
     border-radius: 10px;
     box-sizing: border-box;
@@ -109,7 +113,7 @@
     text-align: center;
     background: #F93154;
     color: #FFF;
-    font-size: 12px;
+
     border-radius: 10px;
     box-sizing: border-box;
 }
@@ -123,7 +127,7 @@
     text-align: center;
     background: #1266F1;
     color: #FFF;
-    font-size: 12px;
+
     text-transform: uppercase;
     border-radius: 10px;
     box-sizing: border-box;
@@ -138,7 +142,6 @@
     text-align: center;
     background: #aa00ff;
     color: #FFF;
-    font-size: 12px;
     text-transform: uppercase;
     border-radius: 10px;
     box-sizing: border-box;

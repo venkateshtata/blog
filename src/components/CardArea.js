@@ -49,7 +49,9 @@ function CardArea() {
     };
 
     return (
-        <div className="root-div">
+        <div className="root-wrapper">
+
+            <div className="root-div">
 
             <div className="text-area">
                 
@@ -112,6 +114,8 @@ function CardArea() {
                     </div>
 
                 </ReactCardCarousel>
+            </div>
+
             </div>
         </div> 
     );
