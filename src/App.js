@@ -11,7 +11,7 @@ function App() {
       <div className="section_1">
         <MainHeadingArea/>
       </div>
-     
+     <CardArea/>
     </div>
   );
 }

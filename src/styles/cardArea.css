@@ -1,27 +1,272 @@
-.area{
-    background-color: aqua;
-}
-
-.container-style{
-    position: relative;
+@font-face {
+    font-family:"Gilroy";
+    src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
+  }
+.root-wrapper{
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: middle;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../assets/card-area-background.png');
+    object-fit: cover;
+    background-color: #282828;
+    width: 100%;
+     height: auto;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
 }
 
-.card-style{
-    height: 200px;
-    width: 200px;
-    padding-top: 80px;
+.root-div{
+    width: 100vw;
+    height: 100vh;
+    /* background-color:  #343434; */
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+}
+
+.text-area{
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.left-content{
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex: 1;
+    flex-direction: row;
+}
+
+.left-text{
+    color: white;
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: 'Gilroy', sans-serif;
+    margin-left: 20px;
+}
+
+.left-text-1{
+    color: white;
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: 'Gilroy', sans-serif;
+    margin-left: 20px;
+}
+
+.left-text-2{
+    color: #0892d0;
+    font-size: 5vw;
+    font-weight: 500;
+    font-family: 'Gilroy', sans-serif;
+    margin-left: 20px;
+}
+
+.cards-area{
+    width: 50vw;
+    position: relative;
+    align-self:center;
+    align-items: center;
+}
+
+.card-content{
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon-style{
+    height: 12vh;
+    width: 7vw;
+    margin:10px;
+}
+
+.card-heading-text{
+    text-transform: none;
+    font-size: 2vw;
+    font-family: 'Gilroy', sans-serif;
+}
+
+.card-desc-text{
+    margin-top: 12px;
+    text-transform: none;
+    font-size: 0.8vw;
+    font-weight: 500;
+}
+
+.card1-style{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
     text-align: center;
-    background: #52C0F5;
+    background: #FFA900;
     color: #FFF;
-    font-family: sans-serif;
-    font-size: 12px;
+
     text-transform: uppercase;
     border-radius: 10px;
     box-sizing: border-box;
+}
+
+.card2-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    background: #F93154;
+    color: #FFF;
+
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card3-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    background: #1266F1;
+    color: #FFF;
+
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card4-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 40vh;
+    text-align: center;
+    background: #aa00ff;
+    color: #FFF;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 750px){
+
+    .root-div{
+        width: 100vw;
+        /* background-color: black; */
+        justify-content: stretch;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .cards-area{
+        display: flex;
+        margin: 10px;
+        flex: 1;
+        position: relative;
+        align-self:center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-content{
+        align-self:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .icon-style{
+        height: 10vh;
+        width: 15vw;
+        margin: 20px;
+    }
+    
+    .card-heading-text{
+        text-transform: none;
+        font-size: 2vw;
+        font-family: 'Gilroy', sans-serif;
+    }
+    
+    .card-desc-text{
+        text-transform: none;
+        font-size: 1.6vw;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-weight: 500;
+    }
+    
+    .card1-style{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 40vh;
+        text-align: center;
+        background: #FFA900;
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    .card2-style{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 40vh;
+        text-align: center;
+        background: #F93154;
+        color: #FFF;
+        font-size: 12px;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    .card3-style{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 40vh;
+        text-align: center;
+        background: #1266F1;
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+    
+    .card4-style{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        height: 40vh;
+        text-align: center;
+        background: #aa00ff;
+        color: #FFF;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: 10px;
+        box-sizing: border-box;
+    }
+
 }
