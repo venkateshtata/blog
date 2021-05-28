@@ -8,12 +8,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-image: url('../assets/card-area-background.png');
+    object-fit: cover;
+    background-color: #282828;
+    width: 100%;
+     height: auto;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
 }
 
 .root-div{
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    /* background-color:  #343434; */
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -36,7 +44,7 @@
 
 .left-text{
     color: white;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 500;
     font-family: 'Gilroy', sans-serif;
     margin-left: 20px;
@@ -44,7 +52,7 @@
 
 .left-text-1{
     color: white;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 500;
     font-family: 'Gilroy', sans-serif;
     margin-left: 20px;
@@ -52,7 +60,7 @@
 
 .left-text-2{
     color: #0892d0;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 500;
     font-family: 'Gilroy', sans-serif;
     margin-left: 20px;
@@ -97,7 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35vw;
+    width: 30vw;
     height: 40vh;
     text-align: center;
     background: #FFA900;
@@ -112,7 +120,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35vw;
+    width: 30vw;
     height: 40vh;
     text-align: center;
     background: #F93154;
@@ -126,7 +134,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35vw;
+    width: 30vw;
     height: 40vh;
     text-align: center;
     background: #1266F1;
@@ -141,7 +149,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35vw;
+    width: 30vw;
     height: 40vh;
     text-align: center;
     background: #aa00ff;
@@ -155,7 +163,7 @@
 
     .root-div{
         width: 100vw;
-        background-color: black;
+        /* background-color: black; */
         justify-content: stretch;
         display: flex;
         height: 100vh;
