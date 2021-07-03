@@ -47,8 +47,8 @@ const MockArea = () => {
                         </div>
 
                         <div className="download-img">
-                            <img src={playStore} style={{ width: "10vw", height: "6vh", margin:'20px', marginTop:'50px' }}/>
-                            <img src={appStore} style={{ width: "10vw", height: "6.3vh", margin:'20px', marginTop:'50px' }}/>
+                            <img src={playStore} style={{ width: "10vw", margin:'10%', marginTop:'5%' }}/>
+                            <img src={appStore} style={{ width: "10vw", margin:'10%', marginTop:'5%' }}/>
                         </div>
 
                 </div>

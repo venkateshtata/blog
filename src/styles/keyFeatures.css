@@ -3,15 +3,26 @@
     src: url("../assets/Gilroy-Regular.otf") format("truetype");
   }
 .features_container{
-    height: 90vh;
+    /* height: 90vh; */
     width: 100vw;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5%;
     
 }
+@media (max-width: 750px){
 
+    .features_container{
+        width: 100vw;
+        /* background-color: black; */
+        justify-content: stretch;
+        display: flex;
+        /* height: 100vh; */
+        flex-direction: column;
+    }
+}
 .features-wrap{
     display:flex;
     flex-direction: column;
@@ -32,6 +43,10 @@
 
 .feature-desc{
     font-family: 'Gilroy-R';
-    height: 100px;
-    width: 300px;
+    height: 10vh;
+    width: 30vw;
+    font-size: 1vw;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 2vw;
 }

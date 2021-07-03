@@ -2,15 +2,20 @@
     font-family:"Gilroy-XB";
     src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
   }
+  @font-face {
+    font-family:"Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+  }
 .root-wrapper{
-    height: 100vh;
+    /* height: 100vh; */
     width: 100vw;
+    margin-top: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* background-image: url('../assets/b3-3.jpg'); */
-    object-fit: cover;
-    background-color: white;
+    /* object-fit: cover;
+    background-color: white; */
     width: 100%;
      height: auto;
      background-size: cover;
@@ -20,7 +25,7 @@
 
 .root-div{
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     /* background-color:  #343434; */
     justify-content: space-around;
     align-items: center;
@@ -29,7 +34,7 @@
 }
 
 .text-area{
-    width: 50vh;
+    /* width: 50vh; */
     display: flex;
     justify-content: center;
     flex-direction: column;    
@@ -84,14 +89,14 @@
 .icon-style{
     height: 12vh;
     width: 7vw;
-    margin:10px;
+    /* margin:10px; */
 }
 
 .card-heading-text{
-    margin: 30px;
+    margin: 10%;
     text-transform: none;
     font-size: 2vw;
-    font-family: 'Gilroy-XB';
+    font-family: 'Gilroy-SB';
 }
 
 .card-desc-text{
@@ -165,20 +170,22 @@
     .root-div{
         width: 100vw;
         /* background-color: black; */
-        justify-content: stretch;
+        /* justify-content: stretch; */
         display: flex;
-        height: 100vh;
+        /* height: 100vh; */
         flex-direction: column;
+        margin-top: 5%;
     }
 
     .cards-area{
         display: flex;
         margin: 10px;
-        flex: 1;
+        /* flex: 1; */
         position: relative;
         align-self:center;
         flex-direction: column;
         align-items: center;
+        height: 30vh;
     }
     
     .card-content{
@@ -192,13 +199,13 @@
     .icon-style{
         height: 10vh;
         width: 15vw;
-        margin: 20px;
+        /* margin: 20px; */
     }
     
     .card-heading-text{
         text-transform: none;
         font-size: 2vw;
-        font-family: 'Gilroy-XB';
+        font-family: 'Gilroy-SB';
     }
     
     .card-desc-text{
@@ -215,8 +222,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60vw;
-        height: 40vh;
+        width: 43vw;
+        height: 19vh;
         text-align: center;
         background: #FFA900;
         color: #FFF;
@@ -230,8 +237,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60vw;
-        height: 40vh;
+        width: 43vw;
+        height: 19vh;
         text-align: center;
         background: #F93154;
         color: #FFF;
@@ -244,8 +251,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60vw;
-        height: 40vh;
+        width: 43vw;
+        height: 19vh;
         text-align: center;
         background: #1266F1;
         color: #FFF;
@@ -259,8 +266,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 60vw;
-        height: 40vh;
+        width: 43vw;
+        height: 19vh;
         text-align: center;
         background: #aa00ff;
         color: #FFF;

@@ -20,10 +20,16 @@ function App() {
       <div className="section_1">
         <MainHeadingArea/>
       </div>
+      <div className="section_2">
       <CardArea/>
       <AssistantArea/>
+      </div>
+     
+      
       <MockArea/>
       <KeyFeatures/>
+      
+      
     </div>
   );
 }

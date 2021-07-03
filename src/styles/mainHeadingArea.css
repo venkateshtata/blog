@@ -8,6 +8,8 @@
   
    width: 100vw;
    display:flex;
+   margin-top: 20%;
+   margin-bottom: 20%;
    justify-content: center;
    align-items: center;
    text-align: center;
@@ -30,7 +32,7 @@
     background-color: white;
     color: black;
     border: white;
-    margin-top: 15vh;
+    /* margin-top: 15vh; */
     font-size: 1.6vw;
     
 }

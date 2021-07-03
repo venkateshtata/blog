@@ -25,7 +25,7 @@ const KeyFeatures = () => {
 
             <div className="features-wrap">
                 <div className="feature-img">
-                    <img src={patternRecognition} style={{ width: "6vw", height: "12vh", margin:'30px'}}/>
+                    <img src={patternRecognition} style={{ width: "6vw", margin:'30%'}}/>
                 </div>
                 <p className="heading">Pattern Recognition</p>
                 <div className="feature-desc">
@@ -35,7 +35,7 @@ const KeyFeatures = () => {
 
             <div className="features-wrap">
                 <div className="feature-img">
-                    <img src={dataPrivacy} style={{ width: "6vw", height: "12vh", margin:'30px'}}/>
+                    <img src={dataPrivacy} style={{ width: "6vw",  margin:'30%'}}/>
                 </div>
                 <p className="heading">Data Privacy</p>
                 <div className="feature-desc">
@@ -45,7 +45,7 @@ const KeyFeatures = () => {
 
             <div className="features-wrap">
                 <div className="feature-img">
-                    <img src={everyday} style={{ width: "6vw", height: "12vh", margin:'30px'}}/>
+                    <img src={everyday} style={{ width: "6vw", margin:'30%'}}/>
                 </div>
                 <p className="heading">Improving Everyday</p>
                 <div className="feature-desc">
