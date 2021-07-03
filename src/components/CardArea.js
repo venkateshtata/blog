@@ -75,7 +75,7 @@ function CardArea() {
                                     isPaused={false}
                                 />
                                 <text className="card-heading-text">Real-Time User Alerts</text>  
-                                <text className="card-desc-text">User can enable this option so the system can alert the user whenever there’s a light that is on while no one’s in the room.</text>
+                                {/* <text className="card-desc-text">User can enable this option so the system can alert the user whenever there’s a light that is on while no one’s in the room.</text> */}
                         </div>
                     </div>
 
@@ -88,7 +88,7 @@ function CardArea() {
                                     isPaused={false}
                                 />
                             <text className="card-heading-text">Energy Monitoring</text>
-                            <text className="card-desc-text">Access energy consumption statistics of your home through our App and set the target for the system to save. </text>
+                            {/* <text className="card-desc-text">Access energy consumption statistics of your home through our App and set the target for the system to save. </text> */}
                         </div>
                     </div>
 
@@ -96,7 +96,7 @@ function CardArea() {
                         <div className="card-content">
                                 <img src={pattern} className="icon-style"/>
                                 <text className="card-heading-text">User Pattern Recognition</text>
-                                <text className="card-desc-text">EuclidHome learns the pattern in which users interact with their home and uses that data to optimise power usage. </text>
+                                {/* <text className="card-desc-text">EuclidHome learns the pattern in which users interact with their home and uses that data to optimise power usage. </text> */}
                         </div>
                     </div>
 
@@ -109,7 +109,7 @@ function CardArea() {
                                         isPaused={false}
                                     />
                                 <text className="card-heading-text">Automatic Control</text>  
-                                <text className="card-desc-text">The system automatically detects in-activity in house and  switches off lights.</text>
+                                {/* <text className="card-desc-text">The system automatically detects in-activity in house and  switches off lights.</text> */}
                         </div>
                     </div>
 

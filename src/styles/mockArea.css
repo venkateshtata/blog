@@ -1,0 +1,36 @@
+@font-face {
+    font-family:"Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+  }
+.mock_container{
+    /* background-image: url('../assets/b2.jpg'); */
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feature{
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.app-features{
+    font-family: 'Gilroy-SB';
+    font-size: 1.2vw;
+    margin: 2.5vh;
+    display: flex;
+}
+
+
+
+
+
+
+

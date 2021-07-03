@@ -1,17 +1,24 @@
 
 @font-face {
-    font-family:"Gilroy";
+    font-family:"Gilroy-XB";
     src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
   }
 .custom-nav-wrapper{
-    background-color:black;
+    background-color:#16161d;
+    justify-content: start!important;
     /* opacity: 0.9; */
 }
 #nav_container a{
     display: flex!important;
     width: 100%;
-    justify-content: space-between!important;
+    justify-content: start!important;
+    flex-direction: row;
 }
+
+.dot{
+    color: #007FFF;
+}
+
 .fixed-top{
     display: flex;
 }
@@ -22,7 +29,7 @@
 #header-nav-btn{
     padding:1vw 2vw;
     border-radius: 5vw;
-    font-family: 'Gilroy';
+    font-family: 'Gilroy-XB';
     background-color: black;
     color: white;
     border-color: white;

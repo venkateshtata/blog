@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"Gilroy";
+    font-family:"Gilroy-XB";
     src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
   }
 .root-wrapper{
@@ -8,9 +8,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: url('../assets/card-area-background.png');
+    /* background-image: url('../assets/b3-3.jpg'); */
     object-fit: cover;
-    background-color: #282828;
+    background-color: white;
     width: 100%;
      height: auto;
      background-size: cover;
@@ -43,26 +43,26 @@
 }
 
 .left-text{
-    color: white;
+    color: #16161d;
     font-size: 5vw;
     font-weight: 500;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy-XB';
     margin-left: 20px;
 }
 
 .left-text-1{
-    color: white;
+    color: #16161d;
     font-size: 5vw;
     font-weight: 500;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy-XB';
     margin-left: 20px;
 }
 
 .left-text-2{
-    color: #0892d0;
+    color: #000080;
     font-size: 5vw;
     font-weight: 500;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy-XB';
     margin-left: 20px;
 }
 
@@ -88,9 +88,10 @@
 }
 
 .card-heading-text{
+    margin: 30px;
     text-transform: none;
     font-size: 2vw;
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'Gilroy-XB';
 }
 
 .card-desc-text{
@@ -108,7 +109,7 @@
     width: 30vw;
     height: 40vh;
     text-align: center;
-    background: #FFA900;
+    background: #FFD700;
     color: #FFF;
 
     text-transform: uppercase;
@@ -197,7 +198,7 @@
     .card-heading-text{
         text-transform: none;
         font-size: 2vw;
-        font-family: 'Gilroy', sans-serif;
+        font-family: 'Gilroy-XB';
     }
     
     .card-desc-text{
