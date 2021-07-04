@@ -78,7 +78,7 @@ const MainHeadingArea = () => {
                 <Modal.Body id="experience-modal-body">
                     <FormControl component="fieldset">
                         <FormLabel component="legend">Option, that you are interested in</FormLabel>
-                        <RadioGroup aria-label="gender" name="gender1" value={option} onChange={handleChange}>
+                        <RadioGroup aria-label="gender" name="gender1" value={option} onChange={handleChange} row>
                             <FormControlLabel value="FreeTrial" control={<Radio />} label="Free trial" />
                             <FormControlLabel value="Buy" control={<Radio />} label="Buy euclid home" />
 
@@ -88,49 +88,22 @@ const MainHeadingArea = () => {
                         {option==='Buy'?'Thanks for considering to buy':'This lets you automate few appliances in your home'}
                     </div>
                     <div className="experience-modal-inputs">
-                    <form  onSubmit={handleSubmit} >
+                    <form  onSubmit={handleSubmit} id="experience-modal-form">
 
-                        <Grid container spacing={1} alignItems="flex-end">
-                            <Grid item>
-                                <AccountCircle />
-                            </Grid>
-                            <Grid item>
-                                <TextField style={{ width: '100%' }}
-                                    inputStyle={{ width: '100%' }} id="input-with-icon-grid" label="Name" value={name} onChange={(e)=>setName(e.target.value)}/>
-                            </Grid>
-                        </Grid>
-                        <Grid container spacing={1} alignItems="flex-end">
-                            <Grid item>
-                                <Mail />
-                            </Grid>
-                            <Grid item>
+                      
+                                <TextField 
+                                     id="input-with-icon-grid" label="Name" value={name} onChange={(e)=>setName(e.target.value)}/>
+                           
+                       
                                 <TextField id="input-with-icon-grid" label="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
-                            </Grid>
-                        </Grid>
-                        <Grid container spacing={1} alignItems="flex-end">
-                            <Grid item>
-                                <Phone />
-                            </Grid>
-                            <Grid item>
+                       
                                 <TextField id="input-with-icon-grid" label="Phone" value={phone} onChange={(e)=>setPhone(e.target.value)} />
-                            </Grid>
-                        </Grid>
-                        <Grid container spacing={1} alignItems="flex-end">
-                            <Grid item>
-                                <Address />
-                            </Grid>
-                            <Grid item>
+                        
                                 <TextField id="input-with-icon-grid" label="Address" value={address} onChange={(e)=>setAddress(e.target.value)}/>
-                            </Grid>
-                        </Grid>
-                        <Grid container spacing={1} alignItems="flex-end">
-                            <Grid item>
-                                <Address />
-                            </Grid>
-                            <Grid item>
+                       
                                 <TextField id="input-with-icon-grid" label="City" value={city} onChange={(e)=>setCity(e.target.value)}/>
-                            </Grid>
-                        </Grid>
+                           
+                        
                         </form>
                     </div>
                 </Modal.Body>
