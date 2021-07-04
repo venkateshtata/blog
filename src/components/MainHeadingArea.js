@@ -8,6 +8,7 @@ import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { makeStyles } from '@material-ui/core/styles';
 import FormLabel from '@material-ui/core/FormLabel';
+import validator from 'validator';
 
 import Input from '@material-ui/core/Input';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -24,11 +25,20 @@ import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com'
 import apiKey from '../../src/emailkey'
 init("user_UcKg874oCLiiNAHWtwaiv");
+
 const MainHeadingArea = () => {
     const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleClose = () => {
+        console.log("clicked")
+        
+        setShow(false);
+    }
+
+    const handleShow = () => {
+        setShow(true);
+    }
+    
     const [option, setOption] = React.useState('FreeTrial');
     const [name,setName]=useState('')
     const [email,setEmail]=useState('')
@@ -38,17 +48,31 @@ const MainHeadingArea = () => {
     const handleChange = (event) => {
         setOption(event.target.value);
     };
-    const handleSubmit = (e) => {
-        console.log("event e",e.target)
-        e.preventDefault(); // Prevents default refresh by the browser
-        emailjs.sendForm(`service_1rs0j8j`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
-        .then((result) => {
-        alert("Message Sent, We will get back to you shortly", result.text);
-        },
-        (error) => {
-        alert("An error occurred, Please try again", error.text);
-        });
-        };
+    const sendDetails = (e) => {
+
+        if(name==='' || email==='' || phone==='' || address==='' || city===''){
+            alert("Please provide all the details before submitting");
+        }
+
+        else if(validator.isEmail(email)==false){
+            alert("Please provide a valid email address");
+        }
+
+        else{
+            console.log("event e",e.target)
+            e.preventDefault(); // Prevents default refresh by the browser
+            emailjs.send(`service_1rs0j8j`, apiKey.TEMPLATE_ID, {"to_name":"Venkatesh", "from_name": name, "message": {"name":name, "email":email, "phone":phone, "address":address, "city":city, "option":option}})
+            .then((result) => {
+            alert("Request have been sent successfully, we will get back to you shortly", result.text);
+            },
+            (error) => {
+            alert("An error occurred, Please try again", error);
+            });
+            };
+        }
+            
+        
+
     const useStyles = makeStyles((theme) => ({
         root: {
           '& > *': {
@@ -88,7 +112,7 @@ const MainHeadingArea = () => {
                         {option==='Buy'?'Thanks for considering to buy':'This lets you automate few appliances in your home'}
                     </div>
                     <div className="experience-modal-inputs">
-                    <form  onSubmit={handleSubmit} >
+                    <form onSubmit={sendDetails}>
 
                         <Grid container spacing={1} alignItems="flex-end">
                             <Grid item>
@@ -135,7 +159,7 @@ const MainHeadingArea = () => {
                     </div>
                 </Modal.Body>
                 <Modal.Footer id="experience-modal-foot">
-                    <Button id="experience-modal-button" onClick={handleClose}>Done</Button>
+                    <Button id="experience-modal-button" onClick={sendDetails}>Confirm</Button>
                 </Modal.Footer>
             </Modal>
             <div className="main_heading_text">

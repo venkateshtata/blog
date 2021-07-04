@@ -9,6 +9,7 @@ import Privacy from '../documents/privacy.pdf'
 import Terms from '../documents/terms.pdf'
 import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com'
+import validator from 'validator';
 import apiKey from '../../src/emailkey'
 init("user_UcKg874oCLiiNAHWtwaiv");
 
@@ -29,16 +30,27 @@ const Footer = () => {
     const [email1,setEmail]=useState('')
     const [message1,setMessage]=useState('')
     const handleSubmit = (e) => {
-        console.log("event e",e.target)
-        e.preventDefault(); // Prevents default refresh by the browser
-        emailjs.send("service_1rs0j8j", apiKey.TEMPLATE_ID, {"to_name":"Venkatesh", "from_name": name1, "message": message1})
-        .then((result) => {
-        alert("Message Sent, We will get back to you shortly", result.text);
-        },
-        (error) => {
-        alert("An error occurred, Please try again", error.text);
-        });
-        };
+
+        if(name1==='' || email1==='' || message1===''){
+            alert("Please provide all the details before submitting");
+        }
+
+        else if(validator.isEmail(email1)==false){
+            alert("Please provide a valid email address");
+        }
+
+        else{
+            console.log("event e",e.target)
+            e.preventDefault(); // Prevents default refresh by the browser
+            emailjs.send("service_1rs0j8j", apiKey.TEMPLATE_ID, {"to_name":"Venkatesh", "from_name": name1, "message": message1})
+            .then((result) => {
+            alert("Message Sent, we will get back to you shortly", result.text);
+            },
+            (error) => {
+            alert("An error occurred, Please try again", error.text);
+            });
+            };
+        }
     const useStyles = makeStyles((theme) => ({
         root: {
           '& > *': {
