@@ -6,7 +6,7 @@ import AssistantArea from './components/AssistantArea';
 import CustomNavbar from './components/CustomNavbar';
 import MockArea from './components/MockArea';
 import KeyFeatures from './components/KeyFeatures';
-
+import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faUserCheck, fas } from '@fortawesome/free-solid-svg-icons'
@@ -24,11 +24,9 @@ function App() {
       <CardArea/>
       <AssistantArea/>
       </div>
-     
-      
-      <MockArea/>
+       <MockArea/>
       <KeyFeatures/>
-      
+      <Footer/>
       
     </div>
   );
