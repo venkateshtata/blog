@@ -2,6 +2,14 @@
     font-family:"Gilroy-XB";
     src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
   }
+  @font-face {
+    font-family:"Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+  }
+  @font-face {
+    font-family:"Gilroy-R";
+    src: url("../assets/Gilroy-Regular.otf") format("truetype");
+  }
 .main_heading_area_container{
     position: relative;
     /* height: 100vh; */
@@ -40,3 +48,58 @@
     outline: none;
     box-shadow: none;
   }
+#experience-modal{
+    /* background-color: whitesmoke; */
+
+}
+#contained-modal-title-vcenter{
+    font-family: 'Gilroy-SB';
+    /* font-size: 2vw; */
+}
+#experience-modal-body{
+    font-family: 'Gilroy-R'!important;
+    font-size: 1.5vw!important;
+}
+
+#experience-modal-footer{
+    font-family: 'Gilroy-SB';
+    justify-content: flex-start!important;
+}
+#experience-modal-button{
+    padding:0.5vw 1.5vw;
+    border-radius: 5vw;
+    font-family: 'Gilroy-SB';
+    background-color: black;
+    color: white;
+    border: white;
+    /* margin-top: 15vh; */
+    font-size: 1.5vw;
+    /* width: 50%; */
+}
+
+
+
+
+.MuiRadio-colorSecondary.Mui-checked {
+    color: #1e90ff!important;
+}
+#experience-modal-body .MuiFormLabel-root{
+    font-family: 'Gilroy-R'!important;
+}
+#experience-modal-body .MuiTypography-body1{
+    font-family: 'Gilroy-R'!important;
+}
+.experience-modal-inputs{
+    width: 100%!important;
+    display: flex;
+    flex-direction: row;
+}
+#input-with-icon-grid{
+    width: 80%!important;
+}
+.option-explanation{
+    font-family: 'Gilroy-SB'!important;
+    font-size: 1vw;
+    color:#1e90ff;
+
+}
