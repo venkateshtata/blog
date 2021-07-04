@@ -31,7 +31,7 @@ const Footer = () => {
     const handleSubmit = (e) => {
         console.log("event e",e.target)
         e.preventDefault(); // Prevents default refresh by the browser
-        emailjs.sendForm(`service_1rs0j8j`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
+        emailjs.send("service_1rs0j8j", apiKey.TEMPLATE_ID, {"to_name":"Venkatesh", "from_name": name1, "message": message1})
         .then((result) => {
         alert("Message Sent, We will get back to you shortly", result.text);
         },
