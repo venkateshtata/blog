@@ -73,9 +73,10 @@
     color: white;
     border: white;
     /* margin-top: 15vh; */
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
     /* width: 50%; */
 }
+
 
 
 
@@ -90,9 +91,11 @@
     font-family: 'Gilroy-R'!important;
 }
 .experience-modal-inputs{
-    width: 100%!important;
+    /* width: 100%!important;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; */
+    /* display: grid;
+    grid-template-columns: 1fr 1fr ; */
 }
 #input-with-icon-grid{
     width: 80%!important;
@@ -102,4 +105,17 @@
     font-size: 1vw;
     color:#1e90ff;
 
+}
+#experience-modal-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:5%
+}
+@media (max-width: 750px){
+
+    #experience-modal-form{
+       
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
