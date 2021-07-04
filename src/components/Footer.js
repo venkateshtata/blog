@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from 'react';
 import '../styles/Footer.css';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
@@ -6,6 +7,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Privacy from '../documents/privacy.pdf'
 import Terms from '../documents/terms.pdf'
+import{ init } from 'emailjs-com';
+import emailjs from 'emailjs-com'
+import apiKey from '../../src/emailkey'
+init("user_UcKg874oCLiiNAHWtwaiv");
+
 const useStyles = makeStyles((theme) => ({
     root: {
       '& > *': {
@@ -19,6 +25,20 @@ const useStyles = makeStyles((theme) => ({
     },
   }));
 const Footer = () => {
+    const [name1,setName]=useState('')
+    const [email1,setEmail]=useState('')
+    const [message1,setMessage]=useState('')
+    const handleSubmit = (e) => {
+        console.log("event e",e.target)
+        e.preventDefault(); // Prevents default refresh by the browser
+        emailjs.sendForm(`service_1rs0j8j`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
+        .then((result) => {
+        alert("Message Sent, We will get back to you shortly", result.text);
+        },
+        (error) => {
+        alert("An error occurred, Please try again", error.text);
+        });
+        };
     const useStyles = makeStyles((theme) => ({
         root: {
           '& > *': {
@@ -45,13 +65,14 @@ const Footer = () => {
                         <div className="contact-us">
                             <div className="contact-us-heading">Contact us</div>
                             <div className="contact-us-form">
-                                <form className={classes.root} id="contact-material-form" noValidate autoComplete="off">
-                                    <TextField id="standard-basic" label="Name" color="white"/>
-                                    <TextField id="standard-basic" label="Email" color="white"/>
-                                    <TextField id="standard-basic" label="Message" color="white"/>
-                                   
+                                <form className={classes.root} onSubmit={handleSubmit} id="contact-material-form" noValidate autoComplete="off">
+                                    <TextField value={name1} onChange={(e)=>setName(e.target.value)}id="standard-basic" label="Name" color="white"/>
+                                    <TextField value={email1} onChange={(e)=>{setEmail(e.target.value)}} id="standard-basic" label="Email" color="white"/>
+                                    <TextField value={message1} onChange={(e)=>setMessage(e.target.value)} id="standard-basic" label="Message" color="white"/>
+                                    <Button type="submit" id="header-btn-submit">submit</Button>{' '}
                                 </form>
-                                <Button id="header-btn-submit">submit</Button>{' '}
+                                {/* <input type="submit" value="Send" /> */}
+                            
                             </div>
                             </div>
 
