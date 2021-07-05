@@ -21,5 +21,7 @@ jobs:
       uses: github/super-linter@v4.2.2
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        VALIDATE_ARM: false
+        VALIDATE_POWERSHELL: false
     
     
