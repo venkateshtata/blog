@@ -98,7 +98,7 @@ const Footer = () => {
                              <div className="privacy-links">
                                  <div className="privacy-policy"><a href = {Privacy} target = "_blank">Privacy Policy</a></div>
                                  <div className="terms-of-service"><a href = {Terms} target = "_blank">Terms of Service</a></div>
-                                 <div className="copyright">Copyright</div>
+                                 <div className="copyright">Copyright©2020 euclid.ai Pvt Ltd.</div>
 
                              </div>
                          </div>
