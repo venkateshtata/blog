@@ -19,7 +19,5 @@ jobs:
     
     - name: Super-Linter
       uses: github/super-linter@v4.2.2
-      with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
     
     
