@@ -12,7 +12,7 @@ import appStore from '../assets/appStore.png';
 const MockArea = () => {
 
     return (
-        <div className="container">
+        <div className="mock-area-container">
             <div className="mock_head">
                 <p>Light up your home with a touch.</p>
             </div>
@@ -51,8 +51,8 @@ const MockArea = () => {
                             </div>
 
                             <div className="download-img">
-                                <img src={playStore} style={{ width: "10vw", margin:'10%', marginTop:'5%' }}/>
-                                <img src={appStore} style={{ width: "10vw", margin:'10%', marginTop:'5%' }}/>
+                                <img src={playStore} style={{ width: "10vw" }}/>
+                                <img src={appStore} style={{ width: "10vw"}}/>
                             </div>
                     </div>
                 </div>

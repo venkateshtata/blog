@@ -68,7 +68,7 @@ const Footer = () => {
                     <div className="company-name">
                         <p>euclid<b className="dot">.</b>Home</p>
                         <div className="contact-euclid">
-                            <div>Contact us</div>
+                            <div>Reach out to us</div>
                             <div>contact@euclid-ai.com</div>
                         </div>
 

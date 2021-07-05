@@ -6,7 +6,7 @@
     /* background-image: url('../assets/b2.jpg'); */
     position: relative;
     /* height: 100vh; */
-    margin-top: 10%;
+    margin-top: 2%;
     width: 100vw;
     display:flex;
     align-items: center;
@@ -49,7 +49,7 @@
     }
     
 }
-.container{
+.mock-area-container{
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -60,7 +60,11 @@
     justify-content: center;
     font-size: 2vw;
 }
-
+.download-img{
+    width: 30vw;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 

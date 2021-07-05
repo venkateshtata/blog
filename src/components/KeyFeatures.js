@@ -21,11 +21,16 @@ const KeyFeatures = () => {
     // };
 
     return (
+        <div className="features-container">
+
+            <div className="features_head">
+                <p>Our Technology</p>
+            </div>
         <div className="features_container">
 
             <div className="features-wrap">
                 <div className="feature-img">
-                    <img src={patternRecognition} style={{ width: "6vw", marginBottom:'5%'}}/>
+                    <img src={patternRecognition} style={{ width: "6vw", marginBottom:'15%'}}/>
                 </div>
                 <p className="heading">Pattern Recognition</p>
                 <div className="feature-desc">
@@ -35,9 +40,9 @@ const KeyFeatures = () => {
 
             <div className="features-wrap">
                 <div className="feature-img">
-                    <img src={dataPrivacy} style={{ width: "6vw",marginBottom:'5%'}}/>
+                    <img src={dataPrivacy} style={{ width: "6vw",marginBottom:'15%'}}/>
                 </div>
-                <p className="heading">Data Privacy</p>
+                <p className="heading">On Device Learning</p>
                 <div className="feature-desc">
                 <p>Privacy is our number one concern. Your data always stays with you and your home, while our AI takes advantage of Federated Learning to learn from you without seeing light of outside world.</p>
                 </div>       
@@ -45,9 +50,9 @@ const KeyFeatures = () => {
 
             <div className="features-wrap">
                 <div className="feature-img">
-                    <img src={everyday} style={{ width: "7vw",marginBottom:'5%'}}/>
+                    <img src={everyday} style={{ width: "7vw",marginBottom:'15%'}}/>
                 </div>
-                <p className="heading">Improving Everyday</p>
+                <p className="heading">Self Improving AI</p>
                 <div className="feature-desc">
                 <p>Euclid Home is always learning and growing. The more you interact with your home, the more it will understand you and try to optimize the power being consumed by your home.</p>
                 </div>       
@@ -55,6 +60,7 @@ const KeyFeatures = () => {
 
             
             
+        </div>
         </div>
     )
 }
