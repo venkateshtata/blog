@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../assets/euclid-logo.png'
+// import logo from '../assets/euclid-logo.png'
 import Navbar from 'react-bootstrap/Navbar'
-import Button from 'react-bootstrap/Button'
+// import Button from 'react-bootstrap/Button'
 
 import '../styles/customNavbar.css'
 

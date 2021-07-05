@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import CardArea from './components/CardArea';
 import MainHeadingArea from './components/MainHeadingArea';
@@ -9,7 +9,7 @@ import KeyFeatures from './components/KeyFeatures';
 import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faCheckSquare, faCoffee, faUserCheck, fas } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare, faCoffee, fas } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, faCheckSquare, faCoffee, fas)
 

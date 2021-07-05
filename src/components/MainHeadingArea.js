@@ -10,17 +10,17 @@ import { makeStyles } from '@material-ui/core/styles';
 import FormLabel from '@material-ui/core/FormLabel';
 import validator from 'validator';
 
-import Input from '@material-ui/core/Input';
-import InputLabel from '@material-ui/core/InputLabel';
-import InputAdornment from '@material-ui/core/InputAdornment';
+// import Input from '@material-ui/core/Input';
+// import InputLabel from '@material-ui/core/InputLabel';
+// import InputAdornment from '@material-ui/core/InputAdornment';
 import FormControl from '@material-ui/core/FormControl';
 import TextField from '@material-ui/core/TextField';
-import Grid from '@material-ui/core/Grid';
-import AccountCircle from '@material-ui/icons/AccountCircle';
-import Mail from '@material-ui/icons/MailOutline'
-import Phone from '@material-ui/icons/Phone'
-import Address from '@material-ui/icons/Home'
-import { NearMe } from '@material-ui/icons';
+// import Grid from '@material-ui/core/Grid';
+// import AccountCircle from '@material-ui/icons/AccountCircle';
+// import Mail from '@material-ui/icons/MailOutline'
+// import Phone from '@material-ui/icons/Phone'
+// import Address from '@material-ui/icons/Home'
+// import { NearMe } from '@material-ui/icons';
 import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com'
 import apiKey from '../../src/emailkey'
@@ -54,7 +54,7 @@ const MainHeadingArea = () => {
             alert("Please provide all the details before submitting");
         }
 
-        else if(validator.isEmail(email)==false){
+        else if(validator.isEmail(email)===false){
             alert("Please provide a valid email address");
         }
 
@@ -73,16 +73,16 @@ const MainHeadingArea = () => {
             
         
 
-    const useStyles = makeStyles((theme) => ({
-        root: {
-          '& > *': {
-            // margin: theme.spacing(1),
-            // width: '25ch',
-            // color:'white'
-          },
-        },
-      }));
-      const classes = useStyles();
+    // const useStyles = makeStyles((theme) => ({
+    //     root: {
+    //       '& > *': {
+    //         // margin: theme.spacing(1),
+    //         // width: '25ch',
+    //         // color:'white'
+    //       },
+    //     },
+    //   }));
+    //   const classes = useStyles();
     return (
 
         <div className="main_heading_area_container">

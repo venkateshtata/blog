@@ -6,20 +6,20 @@ import animationData from '../assets/data.json';
 import alertData from '../assets/alert2.json';
 import energy_monitor from '../assets/energy2.json';
 import automatic from '../assets/automatic2.json';
-import power from '../assets/power.png';
+// import power from '../assets/power.png';
 import pattern from '../assets/pattern.png';
 
 
 function CardArea() {
 
-    const defaultOptions = {
-        loop: true,
-        autoplay: true, 
-        animationData: animationData,
-        rendererSettings: {
-          preserveAspectRatio: 'xMidYMid slice'
-        }
-      };
+    // const defaultOptions = {
+    //     loop: true,
+    //     autoplay: true, 
+    //     animationData: animationData,
+    //     rendererSettings: {
+    //       preserveAspectRatio: 'xMidYMid slice'
+    //     }
+    //   };
 
     const alertOptions = {
         loop: true,

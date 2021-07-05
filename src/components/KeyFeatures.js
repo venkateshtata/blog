@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/keyFeatures.css';
-import Lottie from 'react-lottie';
+// import Lottie from 'react-lottie';
 import assistant from '../assets/assistant.json';
 import patternRecognition from '../assets/patternRecognition.png';
 import everyday from '../assets/everyday.png';
@@ -11,14 +11,14 @@ import dataPrivacy from '../assets/privacy.png';
 
 const KeyFeatures = () => {
 
-    const alertOptions = {
-        loop: true,
-        autoplay: true, 
-        animationData: assistant,
-        rendererSettings: {
-            preserveAspectRatio: 'xMidYMid slice'
-        }
-    };
+    // const alertOptions = {
+    //     loop: true,
+    //     autoplay: true, 
+    //     animationData: assistant,
+    //     rendererSettings: {
+    //         preserveAspectRatio: 'xMidYMid slice'
+    //     }
+    // };
 
     return (
         <div className="features_container">

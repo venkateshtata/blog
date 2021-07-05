@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/mockArea.css';
-import Lottie from 'react-lottie';
+// import Lottie from 'react-lottie';
 import phone from '../assets/phone.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import playStore from '../assets/playStore.png';

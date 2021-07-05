@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import '../styles/Footer.css';
-import Form from 'react-bootstrap/Form'
+// import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import { makeStyles } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
@@ -13,18 +13,18 @@ import validator from 'validator';
 import apiKey from '../../src/emailkey'
 init("user_UcKg874oCLiiNAHWtwaiv");
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-      '& > *': {
-        // margin: theme.spacing(1),
-        width: '25ch',
-        display:'flex',
-        flexDirection:'column',
-        borderBottom:'white'
+// const useStyles = makeStyles((theme) => ({
+//     root: {
+//       '& > *': {
+//         // margin: theme.spacing(1),
+//         width: '25ch',
+//         display:'flex',
+//         flexDirection:'column',
+//         borderBottom:'white'
 
-      },
-    },
-  }));
+//       },
+//     },
+//   }));
 const Footer = () => {
     const [name1,setName]=useState('')
     const [email1,setEmail]=useState('')
@@ -35,7 +35,7 @@ const Footer = () => {
             alert("Please provide all the details before submitting");
         }
 
-        else if(validator.isEmail(email1)==false){
+        else if(validator.isEmail(email1)===false){
             alert("Please provide a valid email address");
         }
 
