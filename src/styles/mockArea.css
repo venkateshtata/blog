@@ -35,15 +35,16 @@
 
 .app-features{
     font-family: 'Gilroy-SB';
-    font-size: 1.2vw;
+    /* font-size: 1.2vw; */
     margin: 2.5vh;
     display: flex;
 }
 @media (max-width: 750px){
 
     .app-features{
+        width: 80vw;
         font-family: 'Gilroy-SB';
-        font-size: 1.2vw;
+        /* font-size: 1.2vw; */
         margin: 1vh;
         display: flex;
     }
@@ -58,7 +59,7 @@
   .mock_head{
     font-family:"Gilroy-XB";
     justify-content: center;
-    font-size: 2vw;
+    font-size: 3vw;
 }
 .download-img{
     width: 30vw;

@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="footer-flex-wrapper">
                 <div className="footer-sub-container">
                     <div className="company-name">
-                        <p>euclid<b className="dot">.</b>Home</p>
+                        <div>euclid<b className="dot">.</b>Home</div>
                         <div className="contact-euclid">
                             <div>Reach out to us</div>
                             <div>contact@euclid-ai.com</div>

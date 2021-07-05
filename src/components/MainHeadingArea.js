@@ -140,7 +140,7 @@ const MainHeadingArea = () => {
             <div>
                 <div className="head">
                 <img className="main_heading_logo" src={home_logo} />
-                <p className="main_heading_text">euclid Home</p>
+                <div className="main_heading_text">euclid Home</div>
             </div>
 {/* 
             <div className="tagline">

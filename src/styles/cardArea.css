@@ -227,7 +227,7 @@
         text-align: center;
         background: #FFA900;
         color: #FFF;
-        font-size: 12px;
+        /* font-size: 12px; */
         text-transform: uppercase;
         border-radius: 10px;
         box-sizing: border-box;
@@ -242,7 +242,7 @@
         text-align: center;
         background: #F93154;
         color: #FFF;
-        font-size: 12px;
+        /* font-size: 12px; */
         border-radius: 10px;
         box-sizing: border-box;
     }
@@ -256,7 +256,7 @@
         text-align: center;
         background: #1266F1;
         color: #FFF;
-        font-size: 12px;
+        /* font-size: 12px; */
         text-transform: uppercase;
         border-radius: 10px;
         box-sizing: border-box;
@@ -271,7 +271,7 @@
         text-align: center;
         background: #aa00ff;
         color: #FFF;
-        font-size: 12px;
+        /* font-size: 12px; */
         text-transform: uppercase;
         border-radius: 10px;
         box-sizing: border-box;

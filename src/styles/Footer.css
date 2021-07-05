@@ -1,63 +1,69 @@
 @font-face {
-    font-family:"Gilroy-SB";
+    font-family: "Gilroy-SB";
     src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
-  }
-  @font-face {
-    font-family:"Gilroy-R";
-    src: url("../assets/Gilroy-Regular.otf") format("truetype");
-  }
-.footer-container{
-    width: 100%;
+}
 
+@font-face {
+    font-family: "Gilroy-R";
+    src: url("../assets/Gilroy-Regular.otf") format("truetype");
+}
+
+.footer-container {
+    width: 100%;
     justify-content: space-around;
     display: flex;
     align-items: center;
-    background-color:#16161d;
+    background-color: #16161d;
 }
-.footer-sub-container{
+
+.footer-sub-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 .company-name {
     margin-top: 5%;
     color: white;
     font-size: 2vw;
     flex-basis: 30%;
-     display: flex;
-     flex-direction: column;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
-    align-items: center;
+    /* align-items: center; */
     margin-bottom: 5%;
     font-family: 'Gilroy-SB';
 }
-.company-details{
+
+.company-details {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
     /* color: white;
     font-size: 1.5vw; */
     flex-basis: 70%;
     color: white;
 }
-.footer-flex-wrapper{
+
+.footer-flex-wrapper {
     width: 100%;
 }
-.contact-euclid{
+
+.contact-euclid {
     color: white;
     font-size: 1vw;
     font-family: 'Gilroy-R';
 }
-.contact-us-heading{
+
+.contact-us-heading {
     font-family: 'Gilroy-SB';
     color: white;
     font-size: 1.5vw;
     /* text-align: center; */
 }
-.contact-us-form{
+
+.contact-us-form {
     font-family: 'Gilroy-R';
     color: white;
     font-size: 1vw;
@@ -67,79 +73,81 @@
     justify-content: center;
     align-items: center;
 }
-.contact-us{
+
+.contact-us {
     margin-top: 2%;
     margin-bottom: 2%;
 }
-#contact-material-form{
+
+#contact-material-form {
     display: flex;
     flex-direction: column;
 }
-#contact-material-form .MuiInputLabel-animated{
-color: white;
-font-size: 1vw;
-font-family: 'Gilroy-R';
+
+#contact-material-form .MuiInputLabel-animated {
+    color: white;
+    font-size: 1vw;
+    font-family: 'Gilroy-R';
 }
 
+#contact-material-form .MuiInputBase-input {
+    color: white!important;
+    font-size: 1vw;
+    font-family: 'Gilroy-R';
+}
 
-    #contact-material-form .MuiInputBase-input{
-        color: white!important;
-        font-size: 1vw;
-        font-family: 'Gilroy-R';
-        }
+@media (max-width: 750px) {
+    .footer-sub-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 3%;
+    }
+}
 
-        @media (max-width: 750px){
+#header-btn-submit {
+    padding: 0.5vw 1.5vw;
+    border-radius: 5vw;
+    font-family: 'Gilroy-SB';
+    background-color: white;
+    color: black;
+    border: white;
+    /* margin-top: 15vh; */
+    font-size: 1vw;
+    width: 50%;
+    /* width: '50%'; */
+    /* height: '50%'; */
+}
 
-            .footer-sub-container{
-               
-                flex-direction: column;
-                align-items: flex-start;
-                margin-left: 3%;
-            }
-            
-        }
-      #header-btn-submit{
-            padding:0.5vw 1.5vw;
-            border-radius: 5vw;
-            font-family: 'Gilroy-SB';
-            background-color: white;
-            color: black;
-            border: white;
-            /* margin-top: 15vh; */
-            font-size: 1vw;
-            width: 50%;
-            /* width: '50%'; */
-            /* height: '50%'; */
-            
-        }
-        #header-btn-submit:focus {
-            outline: none;
-            box-shadow: none;
-          }
-.policy-subcontainer{
-  
+#header-btn-submit:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.policy-subcontainer {
     margin-bottom: 1%;
     width: 90%;
-    
 }
-.seperator{
-   
-        border-top: 1px solid white;
-     
+
+.seperator {
+    border-top: 1px solid white;
 }
-.policy-container{
+
+.policy-container {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.privacy-content{
+
+.privacy-content {
     display: flex;
     justify-content: space-between;
 }
-.linkedIn-profile{
+
+.linkedIn-profile {
     flex-basis: 20%;
 }
-.privacy-links{
+
+.privacy-links {
     flex-basis: 80%;
     display: flex;
     align-items: center;
@@ -148,8 +156,49 @@ font-family: 'Gilroy-R';
     color: white;
     font-size: 1vw;
 }
-a { color: white!important; } 
 
-.copyright{
-    font-family:"Gilroy-R";
+a {
+    color: white!important;
+}
+
+.copyright {
+    font-family: "Gilroy-R";
+}
+
+@media (max-width: 750px) {
+    .contact-us-form {
+        font-size: 3vw;
+    }
+    .contact-euclid {
+        font-size: 3vw;
+    }
+    .contact-us-heading {
+        font-size: 3vw;
+    }
+    .company-name {
+        font-size: 3vw;
+    }
+    #contact-material-form .MuiInputLabel-animated {
+        color: white;
+        font-size: 2vw;
+        font-family: 'Gilroy-R';
+    }
+    #contact-material-form .MuiInputBase-input {
+        color: white!important;
+        font-size: 2vw;
+        font-family: 'Gilroy-R';
+    }
+    #header-btn-submit {
+        padding: 0.5vw 1.5vw;
+        border-radius: 5vw;
+        font-family: 'Gilroy-SB';
+        background-color: white;
+        color: black;
+        border: white;
+        /* margin-top: 15vh; */
+        font-size: 2vw;
+        width: 50%;
+        /* width: '50%'; */
+        /* height: '50%'; */
+    }
 }
