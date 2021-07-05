@@ -120,7 +120,7 @@ const MainHeadingArea = () => {
                                      id="input-with-icon-grid" label="Name" value={name} onChange={(e)=>setName(e.target.value)}/>
                            
                        
-                                <TextField id="input-with-icon-grid" label="email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+                                <TextField id="input-with-icon-grid" label="Email" value={email} onChange={(e)=>setEmail(e.target.value)}/>
                        
                                 <TextField id="input-with-icon-grid" label="Phone" value={phone} onChange={(e)=>setPhone(e.target.value)} />
                         
@@ -147,7 +147,7 @@ const MainHeadingArea = () => {
                     <p>Most affordable and power efficient AI based home automation system.</p>
                 </div> */}
             
-            <Button className="btn" id="header-btn" size="lg">Experience</Button>{' '}
+            <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>Experience</Button>{' '}
             </div>
             </div>
 
