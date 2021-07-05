@@ -9,6 +9,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import { makeStyles } from '@material-ui/core/styles';
 import FormLabel from '@material-ui/core/FormLabel';
 import validator from 'validator';
+import home_logo from '../assets/home_logo.png';
 
 // import Input from '@material-ui/core/Input';
 // import InputLabel from '@material-ui/core/InputLabel';
@@ -64,6 +65,7 @@ const MainHeadingArea = () => {
             emailjs.send(`service_1rs0j8j`, apiKey.TEMPLATE_ID, {"to_name":"Venkatesh", "from_name": name, "message": {"name":name, "email":email, "phone":phone, "address":address, "city":city, "option":option}})
             .then((result) => {
             alert("Request have been sent successfully, we will get back to you shortly", result.text);
+            handleClose()
             },
             (error) => {
             alert("An error occurred, Please try again", error);
@@ -101,7 +103,7 @@ const MainHeadingArea = () => {
                 </Modal.Header>
                 <Modal.Body id="experience-modal-body">
                     <FormControl component="fieldset">
-                        <FormLabel component="legend">Option, that you are interested in</FormLabel>
+                        <FormLabel component="legend">Interested in</FormLabel>
                         <RadioGroup aria-label="gender" name="gender1" value={option} onChange={handleChange} row>
                             <FormControlLabel value="FreeTrial" control={<Radio />} label="Free trial" />
                             <FormControlLabel value="Buy" control={<Radio />} label="Buy euclid home" />
@@ -109,12 +111,11 @@ const MainHeadingArea = () => {
                         </RadioGroup>
                     </FormControl>
                     <div className="option-explanation">
-                        {option==='Buy'?'Thanks for considering to buy':'This lets you automate few appliances in your home'}
+                        {option==='Buy'?'Thanks for considering to buy':'Experience euclid home in one room of your house for free'}
                     </div>
                     <div className="experience-modal-inputs">
-                    <form onSubmit={sendDetails}>
+                    <form onSubmit={sendDetails} id="experience-modal-form">
 
-                      
                                 <TextField 
                                      id="input-with-icon-grid" label="Name" value={name} onChange={(e)=>setName(e.target.value)}/>
                            
@@ -136,8 +137,18 @@ const MainHeadingArea = () => {
                 </Modal.Footer>
             </Modal>
             <div className="main_heading_text">
-                <p>euclid<b className="dot">.</b>Home</p>
-                <Button onClick={handleShow} id="header-btn" size="lg">Experience</Button>{' '}
+            <div>
+                <div className="head">
+                <img className="main_heading_logo" src={home_logo} />
+                <p className="main_heading_text">euclid Home</p>
+            </div>
+{/* 
+            <div className="tagline">
+                    <p>Most affordable and power efficient AI based home automation system.</p>
+                </div> */}
+            
+            <Button className="btn" id="header-btn" size="lg">Experience</Button>{' '}
+            </div>
             </div>
 
         </div>
