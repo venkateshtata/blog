@@ -23,7 +23,7 @@
     width: 100vw;
     padding-bottom: 10%;
 }
-@media (max-width: 768px){
+@media (max-width: 750px){
 
     .features_container{
         width: 100vw;
@@ -39,7 +39,7 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-bottom: 10%;
+        margin-bottom: 10%!important;
     }
 }
 .features-wrap{
@@ -65,12 +65,12 @@
     font-family: 'Gilroy-R';
     height: 10vh;
     width: 25vw;
-    /* font-size: 3vw; */
+    font-size: 1.1vw;
 }
 .svg-inline--fa.fa-w-16 {
     width: 2vw;
 }
-@media (max-width: 768px){
+@media (max-width: 750px){
 
     .feature-desc{
         width: 80vw;

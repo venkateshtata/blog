@@ -10,7 +10,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import FormLabel from '@material-ui/core/FormLabel';
 import validator from 'validator';
 import home_logo from '../assets/home_logo.png';
-
+import Lottie from 'react-lottie';
+import swipedown from '../assets/slider-down-white.json'
 // import Input from '@material-ui/core/Input';
 // import InputLabel from '@material-ui/core/InputLabel';
 // import InputAdornment from '@material-ui/core/InputAdornment';
@@ -28,6 +29,14 @@ import apiKey from '../../src/emailkey'
 init("user_UcKg874oCLiiNAHWtwaiv");
 
 const MainHeadingArea = () => {
+    const swipeOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: swipedown,
+        rendererSettings: {
+            preserveAspectRatio: 'xMidYMid slice'
+        }
+    };
     const [show, setShow] = useState(false);
 
     const handleClose = () => {
@@ -88,6 +97,7 @@ const MainHeadingArea = () => {
     return (
 
         <div className="main_heading_area_container">
+
             <Modal
                 show={show}
                 onHide={handleClose}
@@ -149,8 +159,14 @@ const MainHeadingArea = () => {
             
             <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>Experience</Button>{' '}
             </div>
+            <Lottie options={swipeOptions}
+                                    height="20%"
+                                    width="20%"
+                                    isStopped={false}
+                                    isPaused={false}
+                                />
             </div>
-
+           
         </div>
     )
 }
