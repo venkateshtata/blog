@@ -167,25 +167,25 @@ a {
 
 @media (max-width: 750px) {
     .contact-us-form {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .contact-euclid {
         font-size: 3vw;
     }
     .contact-us-heading {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .company-name {
-        font-size: 3vw;
+        font-size: 6vw;
     }
     #contact-material-form .MuiInputLabel-animated {
         color: white;
-        font-size: 2vw;
+        font-size: 3vw;
         font-family: 'Gilroy-R';
     }
     #contact-material-form .MuiInputBase-input {
         color: white!important;
-        font-size: 2vw;
+        font-size: 5vw;
         font-family: 'Gilroy-R';
     }
     #header-btn-submit {
@@ -196,12 +196,16 @@ a {
         color: black;
         border: white;
         /* margin-top: 15vh; */
-        font-size: 2vw;
+        font-size: 5vw;
         width: 50%;
+        margin-top: 6%;
         /* width: '50%'; */
         /* height: '50%'; */
     }
     .company-name {
         align-items: flex-start;
+    }
+    .privacy-links{
+        font-size: 2vw;
     }
 }

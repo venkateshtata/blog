@@ -166,6 +166,29 @@
 }
 
 @media (max-width: 750px){
+    .left-text{
+        color: #16161d;
+        font-size: 7vw;
+        font-weight: 500;
+        font-family: 'Gilroy-XB';
+        /* margin-left: 20px; */
+    }
+    
+    .left-text-1{
+        color: #16161d;
+        font-size: 7vw;
+        font-weight: 500;
+        font-family: 'Gilroy-XB';
+        /* margin-left: 20px; */
+    }
+    
+    .left-text-2{
+        color: #007FFF;
+        font-size: 7vw;
+        font-weight: 500;
+        font-family: 'Gilroy-XB';
+        /* margin-left: 20px; */
+    }
 
     .root-div{
         width: 100vw;

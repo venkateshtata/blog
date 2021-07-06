@@ -67,7 +67,24 @@
     /* display: flex;
     justify-content: space-evenly; */
 }
+.phone-img{
+    width: 20vw;
+    height: 40vw; 
+}
 
 
+@media (max-width: 750px){
 
+    .phone-img{
+        width: 50vw!important;
+        height: auto!important;
+    }
+    
+}
+@media (max-width: 750px){
 
+    .mock_head{
+        font-size: 5vw;
+    }
+    
+}

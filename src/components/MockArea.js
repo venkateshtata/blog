@@ -19,7 +19,7 @@ const MockArea = () => {
         
             <div className="mock_container">
                 <div>
-                <img src={phone} style={{ width: "20vw", height: "40vw" }} />
+                <img className="phone-img" src={phone} style={{ width: "20vw", height: "40vw" }} />
                 </div>
 
                 <div>
