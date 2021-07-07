@@ -88,3 +88,11 @@
     }
     
 }
+.store-symbols-clickable{
+    box-shadow: none;
+    outline: none;
+}
+#features-modal-form {
+    display: flex;
+   
+}

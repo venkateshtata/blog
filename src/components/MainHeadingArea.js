@@ -75,6 +75,12 @@ const MainHeadingArea = () => {
             .then((result) => {
             alert("Request have been sent successfully, we will get back to you shortly", result.text);
             handleClose()
+            setName('')
+            setEmail('')
+            setPhone('')
+            setAddress('')
+            setCity('')
+            setOption('FreeTrial')
             },
             (error) => {
             alert("An error occurred, Please try again", error);

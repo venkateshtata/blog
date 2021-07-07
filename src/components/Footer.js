@@ -98,8 +98,9 @@ const Footer = () => {
                          <div className="privacy-content">
                              <div className="linkedIn-profile">
                             <div className="icons-footer">
-                             <img src={instagram} className="footer-contact-icons"/>
-                             <img src={linkedIn} className="footer-contact-icons"/>
+                            <a href="https://www.instagram.com/"><img src={instagram} className="footer-contact-icons"/></a>
+                            <a href="https://www.linkedin.com/company/euclid-ai"> <img src={linkedIn} className="footer-contact-icons"/></a>
+                            
                              </div>
                              </div>
                              <div className="privacy-links">
