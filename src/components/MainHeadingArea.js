@@ -127,7 +127,7 @@ const MainHeadingArea = () => {
                         </RadioGroup>
                     </FormControl>
                     <div className="option-explanation">
-                        {option==='Buy'?'Thanks for considering to buy':'Experience euclid home in one room of your house for free'}
+                        {option==='Buy'?'Thanks for considering to buy':'Experience euclid home in upto 3 rooms of your house for free!'}
                     </div>
                     <div className="experience-modal-inputs">
                     <form onSubmit={sendDetails} id="experience-modal-form">
