@@ -168,7 +168,7 @@
 @media (max-width: 750px){
     .left-text{
         color: #16161d;
-        font-size: 7vw;
+        font-size: 8vw;
         font-weight: 500;
         font-family: 'Gilroy-XB';
         /* margin-left: 20px; */
@@ -176,7 +176,7 @@
     
     .left-text-1{
         color: #16161d;
-        font-size: 7vw;
+        font-size: 8vw;
         font-weight: 500;
         font-family: 'Gilroy-XB';
         /* margin-left: 20px; */
@@ -184,7 +184,7 @@
     
     .left-text-2{
         color: #007FFF;
-        font-size: 7vw;
+        font-size: 8vw;
         font-weight: 500;
         font-family: 'Gilroy-XB';
         /* margin-left: 20px; */
@@ -227,7 +227,7 @@
     
     .card-heading-text{
         text-transform: none;
-        font-size: 2vw;
+        font-size: 2.8vw;
         font-family: 'Gilroy-SB';
     }
     
