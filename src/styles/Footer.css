@@ -125,7 +125,7 @@
 
 .policy-subcontainer {
     margin-bottom: 1%;
-    width: 90%;
+    width: 85%;
 }
 
 .seperator {
@@ -145,6 +145,13 @@
 
 .linkedIn-profile {
     flex-basis: 20%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.footer-contact-icons{
+    width: 2vw;
+    margin-right: 5px;
 }
 
 .privacy-links {
@@ -163,6 +170,9 @@ a {
 
 .copyright {
     font-family: "Gilroy-R";
+}
+.footer-contact-icons img{
+    width: 2vw;
 }
 
 @media (max-width: 750px) {
@@ -207,5 +217,31 @@ a {
     }
     .privacy-links{
         font-size: 2vw;
+    }
+}
+@media (max-width: 750px) {
+    .privacy-content {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .privacy-links {
+       
+        justify-content: space-between;
+        flex-direction: column;
+        
+    }
+    .footer-contact-icons {
+        width: 5vw!important;
+    }
+    .policy-subcontainer {
+        margin-bottom: 1%;
+        width: 100%;
+    }
+    .linkedIn-profile {
+        /* flex-basis: 20%; */
+        display: flex;
+        /* justify-content: flex-start; */
+        justify-content: center;
     }
 }

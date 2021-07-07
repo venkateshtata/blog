@@ -11,6 +11,8 @@ import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com'
 import validator from 'validator';
 import apiKey from '../../src/emailkey'
+import instagram from '../assets/instagram.png'
+import linkedIn from '../assets/icons8-linkedin-50.png'
 init("user_UcKg874oCLiiNAHWtwaiv");
 
 // const useStyles = makeStyles((theme) => ({
@@ -94,7 +96,12 @@ const Footer = () => {
                         <div className="policy-subcontainer">
                          <hr className="seperator"></hr>
                          <div className="privacy-content">
-                             <div className="linkedIn-profile"></div>
+                             <div className="linkedIn-profile">
+                            <div className="icons-footer">
+                             <img src={instagram} className="footer-contact-icons"/>
+                             <img src={linkedIn} className="footer-contact-icons"/>
+                             </div>
+                             </div>
                              <div className="privacy-links">
                                  <div className="privacy-policy"><a href = {Privacy} target = "_blank">Privacy Policy</a></div>
                                  <div className="terms-of-service"><a href = {Terms} target = "_blank">Terms of Service</a></div>

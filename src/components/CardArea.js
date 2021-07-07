@@ -55,7 +55,8 @@ function CardArea() {
 
             <div className="text-area">
                 
-                    <text className="left-text-1">Save Energy</text>  
+                    <text className="left-text-1">Save</text> 
+                    <text className="left-text-1">Energy</text>   
                     <text className="left-text">with</text>  
                     <text className="left-text-2">Intelligent</text>  
                     <text className="left-text-2">Automation</text>  
