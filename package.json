@@ -19,6 +19,7 @@
     "emailjs-com": "^3.1.0",
     "eslint": "^7.30.0",
     "font-awesome": "^4.7.0",
+    "lottie-to-svg": "^1.1.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-card-carousel": "^1.1.3",

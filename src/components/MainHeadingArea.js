@@ -30,6 +30,8 @@ import apiKey from '../../src/emailkey'
 import * as Scroll from 'react-scroll';
 
 
+
+
 init("user_UcKg874oCLiiNAHWtwaiv");
 
 const MainHeadingArea = () => {
@@ -167,10 +169,10 @@ const MainHeadingArea = () => {
             <div className="section-1-text">
             <div>
            
-                <div className="head">
-                <img className="main_heading_logo" src={home_logo}/>
-                <div className="main_heading_text">euclid Home</div>
-            </div>
+                {/* <div className="head">
+                    <img className="main_heading_logo" src={home_logo}/>
+                    <div className="main_heading_text">euclid Home</div>
+                </div> */}
 
             <div className="tagline">
                     <p>Making your home truly intelligent by enabling your appliances to understand you.</p>
