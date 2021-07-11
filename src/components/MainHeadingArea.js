@@ -155,8 +155,8 @@ const MainHeadingArea = () => {
             <div className="main_heading_text">
             <div>
                 <div className="head">
-                <img className="main_heading_logo" src={home_logo} />
-                <div className="main_heading_text">euclid Home</div>
+                {/* <img className="main_heading_logo" src={home_logo} /> */}
+                <div className="main_heading_text">Making your home truly intelligent by enabling your appliances to understand you.</div>
             </div>
 {/* 
             <div className="tagline">

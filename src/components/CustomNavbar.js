@@ -9,7 +9,7 @@ const CustomNavbar=()=>{
 return(
   <Navbar expand="lg" sticky="top" className="custom-nav-wrapper" style={{justifyContent:'space-around'}}>
     <Navbar.Brand href="#home" id="nav-container" style={{display:'flex'}}>
-       <Navbar.Brand className="nav-heading" style={{fontFamily:'Gilroy-SB',color:'white', marginLeft:'50px'}}>euclid<b className="dot">.</b>ai</Navbar.Brand>
+       <Navbar.Brand className="nav-heading" style={{fontFamily:'Gilroy-SB',color:'white', marginLeft:'50px'}}>euclid<b className="dot">.</b>Home</Navbar.Brand>
     </Navbar.Brand>
   </Navbar>
 )
