@@ -26,9 +26,16 @@ import TextField from '@material-ui/core/TextField';
 import{ init } from 'emailjs-com';
 import emailjs from 'emailjs-com'
 import apiKey from '../../src/emailkey'
+
+import * as Scroll from 'react-scroll';
+
+
 init("user_UcKg874oCLiiNAHWtwaiv");
 
 const MainHeadingArea = () => {
+
+    let scroll    = Scroll.animateScroll;
+
     const swipeOptions = {
         loop: true,
         autoplay: true, 
@@ -49,6 +56,10 @@ const MainHeadingArea = () => {
         setShow(true);
     }
     
+    const scrollTo = () => {
+        scroll.scrollTo(700);
+    }
+
     const [option, setOption] = React.useState('FreeTrial');
     const [name,setName]=useState('')
     const [email,setEmail]=useState('')
@@ -155,7 +166,7 @@ const MainHeadingArea = () => {
             <div className="main_heading_text">
             <div>
                 <div className="head">
-                <img className="main_heading_logo" src={home_logo} />
+                <img className="main_heading_logo" src={home_logo}/>
                 <div className="main_heading_text">euclid Home</div>
             </div>
 {/* 
@@ -165,12 +176,14 @@ const MainHeadingArea = () => {
             
             <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>Experience</Button>{' '}
             </div>
-            <Lottie options={swipeOptions}
+            <div onClick={scrollTo}>
+                <Lottie options={swipeOptions}
                                     height="20%"
                                     width="20%"
                                     isStopped={false}
                                     isPaused={false}
                                 />
+            </div>
             </div>
            
         </div>
