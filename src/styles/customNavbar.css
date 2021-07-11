@@ -3,6 +3,17 @@
     font-family:"Gilroy-XB";
     src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
   }
+
+@font-face {
+    font-family: "Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "Gilroy-R";
+    src: url("../assets/Gilroy-Regular.otf") format("truetype");
+}
+
 .custom-nav-wrapper{
     background-color:#16161d;
     justify-content: start!important;
@@ -39,3 +50,28 @@
     outline: none;
     box-shadow: none;
   }
+
+#download_brochure{
+    padding: 1vw 2vw;
+    border-radius: 5vw;
+    font-family: "Gilroy-SB";
+    background-color:#16161d; 
+
+  
+    color: white;
+    
+    border-width: 1px;
+    border-color: white;
+
+
+}
+#download_brochure:focus {
+    outline: none!important;
+    box-shadow: none!important;
+    /* background-color: white;
+    color: black; */
+
+}
+#download_brochure a:hover{
+    text-decoration: none;
+}

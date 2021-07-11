@@ -164,18 +164,21 @@ const MainHeadingArea = () => {
                 </Modal.Footer>
             </Modal>
             <div className="main_heading_text">
+            <div className="section-1-text">
             <div>
+           
                 <div className="head">
                 <img className="main_heading_logo" src={home_logo}/>
                 <div className="main_heading_text">euclid Home</div>
             </div>
-{/* 
+
             <div className="tagline">
-                    <p>Most affordable and power efficient AI based home automation system.</p>
-                </div> */}
-            
-            <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>Experience</Button>{' '}
+                    <p>Making your home truly intelligent by enabling your appliances to understand you.</p>
+                </div>
             </div>
+            </div>
+            <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>Experience</Button>{' '}
+            
             <div onClick={scrollTo}>
                 <Lottie options={swipeOptions}
                                     height="20%"

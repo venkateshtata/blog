@@ -58,6 +58,7 @@
         font-size: 4vw;
         /* width:80vw ; */
         margin-top: 40px;
+        margin: 0px 5px;
     }
     .examples {
         justify-content: center;

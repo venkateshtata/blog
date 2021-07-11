@@ -31,9 +31,10 @@ const AssistantArea = () => {
                     />
                 </div>
                 <div className="heading_text">
+                    <div>
                     <p>Take control of your home by saying<b className="sub-text"> Ok Google </b> or <b className="sub-text"> Hey Alexa.</b></p>
                 </div>
-                
+                </div>
                 <div className="examples">
                 <p>" Hey Alexa! turn on the lights in hall "</p>
                 <p>" Ok Google, activate guest mode in second floor "</p>
