@@ -74,4 +74,28 @@
 }
 #download_brochure a:hover{
     text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+@media (max-width: 750px){
+
+    .nav-heading{
+        font-size: 4.5vw;
+        margin-top: 6px;
+    }
+
+#download_brochure{
+    padding: 0vw 2vw;
+    border-radius: 5vw;
+    font-family: "Gilroy-SB";
+    background-color:#16161d; 
+
+  
+    color: white;
+    
+    border-width: 1px;
+    border-color: white;
+
+
+}
 }

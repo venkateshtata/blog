@@ -10,7 +10,8 @@ import home_img from '../assets/home.svg';
 const CustomNavbar=()=>{
 return(
   <Navbar expand="lg" sticky="top" className="custom-nav-wrapper" style={{display:'flex',justifyContent:'space-between',width:'100vw'}}>
-    <Navbar.Brand href="#home" id="nav-container" style={{display:'flex'}}>
+    <Navbar.Brand style={{display:'flex',justifyContent:'space-between',width:'100vw'}}>
+    <Navbar.Brand id="nav-container" style={{display:'flex',}}>
     <img
         alt=""
         src={home_img}
@@ -18,10 +19,10 @@ return(
         height="30px"
         className="d-inline-block align-top"
       />
-       <Navbar.Brand className="nav-heading" style={{fontFamily:'Gilroy-SB',color:'white', marginLeft:'50px'}}>euclid<b className="dot">.</b>ai</Navbar.Brand>
+       <div className="nav-heading" style={{fontFamily:'Gilroy-SB',color:'white',marginLeft:'5%' }}>euclid Home</div>
     </Navbar.Brand>
-    <Button id="download_brochure" variant="secondary"><a href = {Catalog} target = "_blank">Download Catalog</a></Button>
-
+    <Navbar.Brand>  <Button id="download_brochure" variant="secondary"><a href = {Catalog} target = "_blank">Catalog</a></Button></Navbar.Brand>
+    </Navbar.Brand>
   </Navbar>
 )
 }

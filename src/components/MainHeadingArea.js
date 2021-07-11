@@ -179,7 +179,7 @@ const MainHeadingArea = () => {
                 </div>
             </div>
             </div>
-            <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>Experience</Button>{' '}
+            <Button className="btn" id="header-btn" size="lg" onClick={handleShow}>experience</Button>{' '}
             
             <div onClick={scrollTo}>
                 <Lottie options={swipeOptions}

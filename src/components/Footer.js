@@ -68,12 +68,13 @@ const Footer = () => {
             <div className="footer-flex-wrapper">
                 <div className="footer-sub-container">
                     <div className="company-name">
-                        <div>euclid<b className="dot">.</b>Home</div>
+                        <div><div>euclid<b className="dot">.</b>ai</div>
+                        
                         <div className="contact-euclid">
                             <div>Reach out to us</div>
                             <div>contact@euclid-ai.com</div>
                         </div>
-
+                        </div>
                     </div>
                     <div className="company-details">
                         <div className="contact-us">

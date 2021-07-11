@@ -18,7 +18,7 @@
     /* height: 100vh; */
     width: 100vw;
     display: flex;
-    margin-top: 2%;
+    margin-top: 10%;
     /* margin-bottom: 10%; */
     justify-content: center;
     align-items: center;
@@ -162,6 +162,11 @@
 
     #header-btn{
         font-size: 3.5vw;
+    }
+    .tagline{
+        font-family: 'Gilroy-SB';
+        font-size: 5vw;
+        width: 90vw;
     }
     
 }
