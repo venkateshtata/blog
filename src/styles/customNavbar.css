@@ -75,9 +75,9 @@
 #download_brochure a:hover{
     text-decoration: none;
     color: black;
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
-@media (max-width: 750px){
+@media (max-width: 768px){
 
     .nav-heading{
         font-size: 4.5vw;

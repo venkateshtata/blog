@@ -11,15 +11,14 @@ const CustomNavbar=()=>{
 return(
   <Navbar expand="lg" sticky="top" className="custom-nav-wrapper" style={{display:'flex',justifyContent:'space-between',width:'100vw'}}>
     <Navbar.Brand style={{display:'flex',justifyContent:'space-between',width:'100vw'}}>
-    <Navbar.Brand id="nav-container" style={{display:'flex',}}>
+    <Navbar.Brand id="nav-container" style={{display:'flex',alignItems:'center'}}>
     {/* <img
         alt=""
         src={home_img}
-        width="30px"
-        height="30px"
+        style={{marginRight:10,maxWidth:'2.9vw'}}
         className="d-inline-block align-top"
       /> */}
-       <div className="nav-heading" style={{fontFamily:'Gilroy-SB',color:'white',marginLeft:'5%' }}>euclid<b className="dot">.</b>home</div>
+       <div className="nav-heading" style={{fontFamily:'Gilroy-SB',color:'white',marginLeft:"10%" }}><div>euclid<b className="dot">.</b>Home</div></div>
     </Navbar.Brand>
     <Navbar.Brand>  <Button id="download_brochure" variant="secondary"><a href = {Catalog} target = "_blank">catalog</a></Button></Navbar.Brand>
     </Navbar.Brand>
