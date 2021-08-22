@@ -175,7 +175,7 @@ const MainHeadingArea = () => {
                 </div> */}
 
             <div className="tagline">
-                    <p>Making your home truly smart with <b className="dot">Adaptive Intelligence.</b></p>
+                    <p>Make your home truly smart with <b className="dot">Adaptive Intelligence.</b></p>
                 </div>
             </div>
             </div>
