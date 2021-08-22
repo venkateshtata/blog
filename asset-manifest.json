@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/blog/static/css/main.f6de5187.chunk.css",
+    "main.js": "/blog/static/js/main.57b3ba8d.chunk.js",
+    "main.js.map": "/blog/static/js/main.57b3ba8d.chunk.js.map",
+    "runtime-main.js": "/blog/static/js/runtime-main.d89564e5.js",
+    "runtime-main.js.map": "/blog/static/js/runtime-main.d89564e5.js.map",
+    "static/css/2.150d169a.chunk.css": "/blog/static/css/2.150d169a.chunk.css",
+    "static/js/2.8f179903.chunk.js": "/blog/static/js/2.8f179903.chunk.js",
+    "static/js/2.8f179903.chunk.js.map": "/blog/static/js/2.8f179903.chunk.js.map",
+    "static/js/3.cc2e2df0.chunk.js": "/blog/static/js/3.cc2e2df0.chunk.js",
+    "static/js/3.cc2e2df0.chunk.js.map": "/blog/static/js/3.cc2e2df0.chunk.js.map",
+    "index.html": "/blog/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/blog/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.f6de5187.chunk.css.map": "/blog/static/css/main.f6de5187.chunk.css.map",
+    "static/js/2.8f179903.chunk.js.LICENSE.txt": "/blog/static/js/2.8f179903.chunk.js.LICENSE.txt",
+    "static/media/Euclid-Home.4a1d1d60.pdf": "/blog/static/media/Euclid-Home.4a1d1d60.pdf",
+    "static/media/customNavbar.css": "/blog/static/media/Gilroy-ExtraBold.0094146a.otf",
+    "static/media/Footer.css": "/blog/static/media/Gilroy-SemiBold.017ff10c.otf",
+    "static/media/appStore.4106a95d.png": "/blog/static/media/appStore.4106a95d.png",
+    "static/media/assistantArea.css": "/blog/static/media/b3-3.d2848a55.jpg",
+    "static/media/keyFeatures.css": "/blog/static/media/bgb1.e2573302.jpg",
+    "static/media/everyday.9e81782a.png": "/blog/static/media/everyday.9e81782a.png",
+    "static/media/home.511c8188.svg": "/blog/static/media/home.511c8188.svg",
+    "static/media/home_logo.743a0c1c.png": "/blog/static/media/home_logo.743a0c1c.png",
+    "static/media/iphone_X_Mockup.b6239113.png": "/blog/static/media/iphone_X_Mockup.b6239113.png",
+    "static/media/pattern.7005b3ae.png": "/blog/static/media/pattern.7005b3ae.png",
+    "static/media/patternRecognition.a7bef18b.png": "/blog/static/media/patternRecognition.a7bef18b.png",
+    "static/media/playStore.a8100d7e.png": "/blog/static/media/playStore.a8100d7e.png",
+    "static/media/privacy.01558e5c.png": "/blog/static/media/privacy.01558e5c.png",
+    "static/media/privacy.a469d32c.pdf": "/blog/static/media/privacy.a469d32c.pdf",
+    "static/media/terms.3eb1f7ec.pdf": "/blog/static/media/terms.3eb1f7ec.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d89564e5.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.8f179903.chunk.js",
+    "static/css/main.f6de5187.chunk.css",
+    "static/js/main.57b3ba8d.chunk.js"
+  ]
+}
