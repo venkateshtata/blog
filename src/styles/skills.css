@@ -1,0 +1,39 @@
+@font-face {
+    font-family:"Gilroy-XB";
+    src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Gilroy-R";
+    src: url("../assets/Gilroy-Regular.otf") format("truetype");
+}
+
+.skills-title{
+    font-size: 3vw;
+    font-family: 'Gilroy-SB';
+    margin-left: 50px;
+}
+
+
+.skills-wrapper{
+    margin-top: 100px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-area{
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

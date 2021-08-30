@@ -1,6 +1,9 @@
 // import logo from './logo.svg';
 import './App.css';
 import CardArea from './components/CardArea';
+import Experience from './components/Experience';
+import Talks from './components/Talks';
+import Skills from './components/Skills';
 import MainHeadingArea from './components/MainHeadingArea';
 import AssistantArea from './components/AssistantArea';
 import CustomNavbar from './components/CustomNavbar';
@@ -17,7 +20,12 @@ function App() {
   return (
     <div className="App">
       <CustomNavbar/>
-      <div className="section_1">
+      <CardArea/>
+      <Experience/>
+      <Skills/>
+      <Talks/>
+      
+      {/* <div className="section_1">
         <MainHeadingArea/>
       </div>
       <div className="section_2">
@@ -25,8 +33,8 @@ function App() {
       <AssistantArea/>
       </div>
        <MockArea/>
-      <KeyFeatures/>
-      <Footer/>
+      <KeyFeatures/>}
+      <Footer/> */}
       
     </div>
   );

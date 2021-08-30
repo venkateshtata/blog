@@ -1,0 +1,116 @@
+@font-face {
+    font-family:"Gilroy-XB";
+    src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Gilroy-R";
+    src: url("../assets/Gilroy-Regular.otf") format("truetype");
+}
+
+.talks_wrapper {
+    position: relative;
+    background-size: cover;
+    object-fit: cover;
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.talks-video-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.talk-video{
+    margin: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 250px;
+}
+
+.img{
+    width: 10px;
+}
+
+.exp-card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+
+.sub-head{
+    color: #007FFF;
+    font-family: 'Gilroy-SB';
+    font-size: 1.2vw;
+}
+
+.talk-title-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.talks-title{
+    margin-top: 80px;
+    font-size: 3vw;
+    font-family: 'Gilroy-SB';
+    margin-bottom: 80px;
+}
+
+
+.talk-title-area{
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.exp-card-title{
+    font-size: 1.2vw;
+    font-family: 'Gilroy-XB';
+}
+
+.exp-card-role{
+    font-size: 1.2vw;
+    font-family: 'Gilroy-SB';
+}
+
+.anim {
+    justify-content: center;
+}
+
+.exp-diagram {
+    margin-top: 20%;
+}
+
+.sub-text {
+    font-family: 'Gilroy-R';
+    /* font-size: 1.8vw; */
+}
+
+.talks_area{
+    color: black;
+    font-family: 'Gilroy-R';
+    /* font-weight: 100; */
+    font-size: 1.8vw;
+    /* width:80vw ; */
+    margin-top: 10px;
+}

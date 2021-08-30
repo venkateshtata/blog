@@ -14,6 +14,11 @@
     src: url("../assets/Gilroy-Regular.otf") format("truetype");
 }
 
+.footer-contact-icons {
+    color: 1.5vw!important;
+    margin-left: 10px;
+}
+
 .custom-nav-wrapper{
     background-color:#16161d;
     justify-content: start!important;
@@ -33,10 +38,12 @@
 .fixed-top{
     display: flex;
 }
+
 .nav-heading{
     color: white;
     font-size: 2vw;
 }
+
 #header-nav-btn{
     padding:1vw 2vw;
     border-radius: 5vw;
@@ -55,16 +62,12 @@
     padding: 1vw 2vw;
     border-radius: 5vw;
     font-family: "Gilroy-SB";
-    background-color:#16161d; 
-
-  
+    background-color:#16161d;   
     color: white;
-    
     border-width: 1px;
     border-color: white;
-
-
 }
+
 #download_brochure:focus {
     outline: none!important;
     box-shadow: none!important;
@@ -72,11 +75,13 @@
     color: black; */
 
 }
+
 #download_brochure a:hover{
     text-decoration: none;
     color: black;
     /* font-size: 2vw; */
 }
+
 @media (max-width: 768px){
 
     .nav-heading{
