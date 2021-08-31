@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/blog/static/css/main.71b5a5a6.chunk.css",
-    "main.js": "/blog/static/js/main.156c05d0.chunk.js",
-    "main.js.map": "/blog/static/js/main.156c05d0.chunk.js.map",
-    "runtime-main.js": "/blog/static/js/runtime-main.40807a9b.js",
-    "runtime-main.js.map": "/blog/static/js/runtime-main.40807a9b.js.map",
-    "static/css/2.c490997a.chunk.css": "/blog/static/css/2.c490997a.chunk.css",
-    "static/js/2.a0a98057.chunk.js": "/blog/static/js/2.a0a98057.chunk.js",
-    "static/js/2.a0a98057.chunk.js.map": "/blog/static/js/2.a0a98057.chunk.js.map",
-    "static/js/3.e60230ac.chunk.js": "/blog/static/js/3.e60230ac.chunk.js",
-    "static/js/3.e60230ac.chunk.js.map": "/blog/static/js/3.e60230ac.chunk.js.map",
+    "main.css": "/blog/static/css/main.14131bd1.chunk.css",
+    "main.js": "/blog/static/js/main.7480c5a8.chunk.js",
+    "main.js.map": "/blog/static/js/main.7480c5a8.chunk.js.map",
+    "runtime-main.js": "/blog/static/js/runtime-main.da074c88.js",
+    "runtime-main.js.map": "/blog/static/js/runtime-main.da074c88.js.map",
+    "static/css/2.3f576435.chunk.css": "/blog/static/css/2.3f576435.chunk.css",
+    "static/js/2.863b7ce1.chunk.js": "/blog/static/js/2.863b7ce1.chunk.js",
+    "static/js/2.863b7ce1.chunk.js.map": "/blog/static/js/2.863b7ce1.chunk.js.map",
+    "static/js/3.04da4222.chunk.js": "/blog/static/js/3.04da4222.chunk.js",
+    "static/js/3.04da4222.chunk.js.map": "/blog/static/js/3.04da4222.chunk.js.map",
     "index.html": "/blog/index.html",
-    "static/css/2.c490997a.chunk.css.map": "/blog/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.71b5a5a6.chunk.css.map": "/blog/static/css/main.71b5a5a6.chunk.css.map",
-    "static/js/2.a0a98057.chunk.js.LICENSE.txt": "/blog/static/js/2.a0a98057.chunk.js.LICENSE.txt",
+    "static/css/2.3f576435.chunk.css.map": "/blog/static/css/2.3f576435.chunk.css.map",
+    "static/css/main.14131bd1.chunk.css.map": "/blog/static/css/main.14131bd1.chunk.css.map",
+    "static/js/2.863b7ce1.chunk.js.LICENSE.txt": "/blog/static/js/2.863b7ce1.chunk.js.LICENSE.txt",
     "static/media/Euclid-Home.4a1d1d60.pdf": "/blog/static/media/Euclid-Home.4a1d1d60.pdf",
     "static/media/customNavbar.css": "/blog/static/media/Gilroy-ExtraBold.0094146a.otf",
     "static/media/Footer.css": "/blog/static/media/Gilroy-SemiBold.017ff10c.otf",
@@ -39,10 +39,10 @@
     "static/media/vidatt2.062e9f2f.png": "/blog/static/media/vidatt2.062e9f2f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.40807a9b.js",
-    "static/css/2.c490997a.chunk.css",
-    "static/js/2.a0a98057.chunk.js",
-    "static/css/main.71b5a5a6.chunk.css",
-    "static/js/main.156c05d0.chunk.js"
+    "static/js/runtime-main.da074c88.js",
+    "static/css/2.3f576435.chunk.css",
+    "static/js/2.863b7ce1.chunk.js",
+    "static/css/main.14131bd1.chunk.css",
+    "static/js/main.7480c5a8.chunk.js"
   ]
 }
