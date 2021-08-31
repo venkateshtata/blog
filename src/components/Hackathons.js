@@ -10,7 +10,7 @@ export default function Hackathons() {
             <p className="hackathon-title">Hackathons</p>
             <div className="hackathons-cards">
 
-                <Card style={{ width: 400, marginLeft: 50, marginRight: 50 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
+                <Card style={{ width: 300, marginLeft: 50, marginRight: 50 }} cover={<img alt="example" src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"/>}>
                     <Meta style={{margin: 10 }} title="Hack.Bangalore by MBRDI" description="- 1st Runner Up"/>
                     <Meta style={{margin: 10 }} description="- Invited to showcase our project in Mobile World Congress, Barcelona, Spain."/>
                     <Meta style={{margin: 10 }} description="- Was organized by Mercedes Benz Research & Development India."/>  
@@ -25,7 +25,7 @@ export default function Hackathons() {
                     <Meta style={{margin: 10 }} title="NASA Space Apps Challenge" description="- 5th Place"/>
                     <Meta style={{margin: 10 }} description="- Built a tool that makes use of Geo-Spatial data and deep learning models  to project and provide analysis on geographical properties of a given region to help enterprises."/>
                 </Card>
-            
+
             </div>
         </div>
     )
