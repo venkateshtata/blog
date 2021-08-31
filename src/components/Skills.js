@@ -16,7 +16,7 @@ export default function Skills() {
             <p className="skills-title">Skills</p>
             <div className="skills-area">
 
-                <Card border="primary" style={{ width: '25rem', margin: '30px' }}>
+                <Card border="dark" style={{ width: '25rem', margin: '30px' }}>
                     <Card.Header>Python Scripting</Card.Header>
                     <Card.Body>
                         <div className="skill-card">
@@ -26,7 +26,7 @@ export default function Skills() {
                     </Card.Body>
                 </Card>
 
-                <Card border="primary" style={{ width: '25rem', margin: '30px' }}>
+                <Card border="dark" style={{ width: '25rem', margin: '30px' }}>
                     <Card.Header>Machine Learning</Card.Header>
                     <Card.Body>
                         <div className="skill-card">
@@ -36,7 +36,7 @@ export default function Skills() {
                     </Card.Body>
                 </Card>
 
-                <Card border="primary" style={{ width: '25rem', margin: '30px' }}>
+                <Card border="dark" style={{ width: '25rem', margin: '30px' }}>
                     <Card.Header>Javascript</Card.Header>
                     <Card.Body>
                         <div className="skill-card">
@@ -50,7 +50,7 @@ export default function Skills() {
 
             <div className="skills-area">
 
-                <Card border="primary" style={{ width: '25rem', margin: '30px' }}>
+                <Card border="dark" style={{ width: '25rem', margin: '30px' }}>
                     <Card.Header>C++</Card.Header>
                     <Card.Body>
                         <div className="skill-card">
@@ -60,7 +60,7 @@ export default function Skills() {
                     </Card.Body>
                 </Card>
 
-                <Card border="primary" style={{ width: '25rem', margin: '30px' }}>
+                <Card border="dark" style={{ width: '25rem', margin: '30px' }}>
                     <Card.Header>Computer Vision</Card.Header>
                     <Card.Body>
                         <div className="skill-card">
@@ -70,7 +70,7 @@ export default function Skills() {
                     </Card.Body>
                 </Card>
 
-                <Card border="primary" style={{ width: '25rem', margin: '30px' }}>
+                <Card border="dark" style={{ width: '25rem', margin: '30px' }}>
                     <Card.Header>Parallel Computing</Card.Header>
                     <Card.Body>
                         <div className="skill-card">

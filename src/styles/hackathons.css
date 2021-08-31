@@ -13,28 +13,21 @@
     src: url("../assets/Gilroy-Regular.otf") format("truetype");
 }
 
-.skills-title{
+.hackathon-title{
     font-size: 3vw;
     font-family: 'Gilroy-SB';
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
-
-.skills-wrapper{
+.hackathons-wrapper{
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.skills-area{
+
+.hackathons-cards{
     display: flex;
     flex-direction: row;
-
-}
-
-.skill-card{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }

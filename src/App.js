@@ -4,6 +4,9 @@ import CardArea from './components/CardArea';
 import Experience from './components/Experience';
 import Talks from './components/Talks';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Hackathons from './components/Hackathons';
+
 import MainHeadingArea from './components/MainHeadingArea';
 import AssistantArea from './components/AssistantArea';
 import CustomNavbar from './components/CustomNavbar';
@@ -24,7 +27,8 @@ function App() {
       <Experience/>
       <Skills/>
       <Talks/>
-      
+      <Projects/>
+      <Hackathons/>
       {/* <div className="section_1">
         <MainHeadingArea/>
       </div>
