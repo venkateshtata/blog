@@ -6,6 +6,7 @@ import Talks from './components/Talks';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Hackathons from './components/Hackathons';
+import Papers from './components/Papers';
 
 import MainHeadingArea from './components/MainHeadingArea';
 import AssistantArea from './components/AssistantArea';
@@ -29,6 +30,7 @@ function App() {
       <Talks/>
       <Projects/>
       <Hackathons/>
+      <Papers/>
       {/* <div className="section_1">
         <MainHeadingArea/>
       </div>
