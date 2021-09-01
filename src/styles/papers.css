@@ -14,17 +14,19 @@
 }
 
 .papers-wrapper{
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
+.aws-btn {
+    width: 180px;
+    }
+
 .papers-title{
     font-size: 3vw;
     font-family: 'Gilroy-SB';
-    margin-bottom: 100px;
 }
 
 .paper-area{
@@ -34,17 +36,16 @@
     align-items: flex-start;
     align-content: flex-start;
     text-align: start;
-    
+    margin-top: 100px;
 }
 
 .paper-title{
-    margin-top: 80px;
-    font-family:"Gilroy-R";
+    font-family:"Gilroy-SB";
     font-size: 2vw;
 }
 
 .paper-desc{
-    margin-top: 5px;
+    margin-top: 20px;
     font-family:"Gilroy-R";
     font-size: 1.5vw;
 }

@@ -36,18 +36,18 @@
     margin-bottom: 100px;
 }
 
-.skill-title{
-    margin-top: 80px;
-    font-family:"Gilroy-R";
+.project-title{
+    margin-top: 50px;
+    font-family:"Gilroy-SB";
     font-size: 2vw;
 }
 
-.skill-title1{
-    font-family:"Gilroy-R";
+.project-title1{
+    font-family:"Gilroy-SB";
     font-size: 2vw;
 }
 
-.skill-desc{
+.project-desc{
     margin-top: 5px;
     font-family:"Gilroy-R";
     font-size: 1.5vw;
