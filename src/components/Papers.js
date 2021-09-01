@@ -2,7 +2,6 @@ import React from 'react'
 import '../styles/papers.css'
 import { AwesomeButtonSocial} from "react-awesome-button";
 import AwesomeButtonStyles from "react-awesome-button/src/styles/styles.scss";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import unet from '../assets/unet.png';
 
 export default function Papers() {
@@ -11,7 +10,7 @@ export default function Papers() {
              <p className="papers-title">Paper Implementations</p>
 
              <div className="paper-area">
-                <p className="paper-title">End to End Learning for Self-Driving Cars - By Karol Zieba, Nvidia Corporation</p>
+                <p className="paper-title1">End to End Learning for Self-Driving Cars - By Karol Zieba, Nvidia Corporation</p>
                 <AwesomeButtonSocial type="github" className="aws-btn" href='https://github.com/venkateshtata/research'>Github</AwesomeButtonSocial>
                 <p className="paper-desc">A convolutional neural network to map raw pixels from a single front facing camera directly to steering commands in PyTorch. Trained and evaluated the model on comma ai dataset.</p>
                 

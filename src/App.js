@@ -7,6 +7,8 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Hackathons from './components/Hackathons';
 import Papers from './components/Papers';
+import Magazine from './components/Magazine';
+import Interests from './components/Interests';
 
 import MainHeadingArea from './components/MainHeadingArea';
 import AssistantArea from './components/AssistantArea';
@@ -31,6 +33,8 @@ function App() {
       <Projects/>
       <Hackathons/>
       <Papers/>
+      <Magazine/>
+      <Interests/>
       {/* <div className="section_1">
         <MainHeadingArea/>
       </div>

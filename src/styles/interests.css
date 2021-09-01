@@ -13,23 +13,33 @@
     src: url("../assets/Gilroy-Regular.otf") format("truetype");
 }
 
-.papers-wrapper{
+.interests-wrapper{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.aws-btn {
-    width: 180px;
-    }
-
-.papers-title{
+.interest-title{
     font-size: 3vw;
     font-family: 'Gilroy-SB';
 }
 
-.paper-area{
+.interest-desc{
+    font-size: 3vw;
+    font-family: 'Gilroy-R';
+}
+
+.aws-btn {
+    width: 180px;
+}
+
+.interests-title{
+    font-size: 3vw;
+    font-family: 'Gilroy-SB';
+}
+
+.interests-area{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -38,27 +48,19 @@
     text-align: start;
 }
 
-.paper-title{
+.interest-title{
     font-family:"Gilroy-SB";
     font-size: 2vw;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
-.paper-title1{
+.interest-title1{
     font-family:"Gilroy-SB";
     font-size: 2vw;
     margin-top: 50px;
 }
 
-.paper-desc{
-    margin-top: 20px;
+.interest-desc{
     font-family:"Gilroy-R";
     font-size: 1.5vw;
-}
-
-.project-video{
-    margin-top: 20px;
-    margin-bottom: 50px;
-    width: 500px;
-    height: 250px;
 }

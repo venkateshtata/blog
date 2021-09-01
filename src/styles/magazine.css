@@ -1,0 +1,62 @@
+@font-face {
+    font-family:"Gilroy-XB";
+    src: url("../assets/Gilroy-ExtraBold.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"Gilroy-SB";
+    src: url("../assets/Gilroy-SemiBold.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Gilroy-R";
+    src: url("../assets/Gilroy-Regular.otf") format("truetype");
+}
+
+.magazines-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.aws-btn {
+    width: 180px;
+    }
+
+.magazines-title{
+    font-size: 3vw;
+    font-family: 'Gilroy-SB';
+}
+
+.magazine-area{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    text-align: start;
+
+}
+
+.magazine-title{
+    font-family:"Gilroy-SB";
+    font-size: 2vw;
+    margin-top: 100px;
+}
+
+.magazine-title1{
+    font-family:"Gilroy-SB";
+    font-size: 2vw;
+    margin-top: 50px;
+}
+
+.magazine-desc{
+    font-family:"Gilroy-R";
+    font-size: 1.5vw;
+}
+
+.magazine-reads{
+    font-family:"Gilroy-XB";
+    font-size: 1.5vw;
+}

@@ -33,7 +33,6 @@
 .projects-title{
     font-size: 3vw;
     font-family: 'Gilroy-SB';
-    margin-bottom: 100px;
 }
 
 .project-title{
@@ -43,6 +42,7 @@
 }
 
 .project-title1{
+    margin-top: 60px;
     font-family:"Gilroy-SB";
     font-size: 2vw;
 }
