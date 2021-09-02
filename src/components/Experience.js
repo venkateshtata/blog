@@ -52,7 +52,7 @@ export default function Experience() {
                             <ImageEvent date="July 2020 - Currently Working" className="event" src={euclid}>
                                 <div>
             
-                                <p className="exp-card-title"><b className="sub-head">Company:</b> euclid.ai</p>
+                                <p className="exp-card-title"><b className="sub-head">Company:</b> Euclid.ai</p>
                                 <p className="exp-card-role"><b className="sub-head">Role:</b> Founder, Cloud Architect</p>
       
                                 </div>

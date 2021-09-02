@@ -41,23 +41,28 @@
 
 .sub-head{
     color: #007FFF;
-    font-family: 'Gilroy-SB';
+    font-family: 'Gilroy-R';
     font-size: 1.2vw;
 }
+/* 
+.event{
+    display: flex;
+    flex-direction: row;
+} */
 
 .exp-title{
     font-size: 3vw;
-    font-family: 'Gilroy-SB';
+    font-family: 'Gilroy-R';
 }
 
 .exp-card-title{
     font-size: 1.2vw;
-    font-family: 'Gilroy-XB';
+    font-family: 'Gilroy-R';
 }
 
 .exp-card-role{
     font-size: 1.2vw;
-    font-family: 'Gilroy-SB';
+    font-family: 'Gilroy-R';
 }
 
 .sub-container {
@@ -74,7 +79,7 @@
 }
 
 .sub-text {
-    font-family: 'Gilroy-R';
+    font-family: 'Gilroy-SB';
     /* font-size: 1.8vw; */
 }
 
