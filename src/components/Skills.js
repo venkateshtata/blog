@@ -21,7 +21,7 @@ export default function Skills() {
                     <Card.Body>
                         <div className="skill-card">
                         <img src={python} width={30} height={30} style={{marginRight: '30px', marginLeft: '20px' }}></img>
-                        <Card.Title style={{ width: '18rem', fontSize: '14px' }}>Numpy, CPython, OpenCV</Card.Title>
+                        <Card.Title style={{ width: '18rem', fontSize: '14px' }}>Numpy, Pandas, CPython</Card.Title>
                         </div>
                     </Card.Body>
                 </Card>
@@ -31,7 +31,7 @@ export default function Skills() {
                     <Card.Body>
                         <div className="skill-card">
                         <img src={pytorch} width={25} height={30} style={{marginRight: '30px', marginLeft: '20px' }}></img>
-                        <Card.Title style={{ width: '18rem', fontSize: '14px' }}>PyTorch, Scipy, Keras</Card.Title>
+                        <Card.Title style={{ width: '18rem', fontSize: '14px' }}>PyTorch, SciPy, Scikit-learn</Card.Title>
                         </div>
                     </Card.Body>
                 </Card>
