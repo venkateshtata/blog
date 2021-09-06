@@ -24,7 +24,7 @@ export default function Interests() {
                 <ul>
                     <li className="interest-title">Open-Source Contribution</li>
                         <ul>
-                            <li className="interest-desc">Open-Source communities and have always been inspired by how production grade open-source deep learning frameworks like PyTorch are being developed by people from all around the world and am always looking to contribute my part to it.</li>
+                            <li className="interest-desc">Open-Source communities have always inspired me on building production ready deep learning frameworks like PyTorch that are being developed by people from all around the world and am always looking to contribute my part to it.</li>
                         </ul>
                 </ul>
 
