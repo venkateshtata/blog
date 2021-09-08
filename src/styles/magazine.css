@@ -23,7 +23,8 @@
 .aws-btn {
     width: 180px;
     }
-
+   
+      
 .magazines-title{
     font-size: 3vw;
     font-family: 'Gilroy-SB';
@@ -41,22 +42,101 @@
 
 .magazine-title{
     font-family:"Gilroy-SB";
-    font-size: 2vw;
-    margin-top: 100px;
+    /* font-size: 2vw;
+    margin-top: 100px; */
 }
 
 .magazine-title1{
     font-family:"Gilroy-SB";
-    font-size: 2vw;
-    margin-top: 50px;
+    /* font-size: 2vw;
+    margin-top: 50px; */
 }
 
 .magazine-desc{
     font-family:"Gilroy-R";
-    font-size: 1.5vw;
+   
+   
 }
 
 .magazine-reads{
     font-family:"Gilroy-XB";
     font-size: 1.5vw;
+}
+@media screen and (min-device-width: 375px) and (max-device-width: 767px) { 
+.aws-btn {
+    width: 90px!important;
+    height: 30px!important;
+    }
+    .magazine-desc{
+        font-family:"Gilroy-R";
+      
+       
+    }
+    .magazine-title1 {
+        font-family: "Gilroy-SB";
+        /* font-size: 2vw; */
+        margin-top: 30px;
+    }
+    .magazine-title{
+        font-family:"Gilroy-SB";
+        /* font-size: 2vw; */
+        margin-top: 40px;
+    }
+    .magazines-title {
+        font-size: 5vw;
+        font-family: 'Gilroy-SB';
+    }
+    .magazine-reads {
+        font-family: "Gilroy-XB";
+        font-size: 2.5vw;
+    }
+    .paper-desc {
+        margin-top: 20px;
+        font-family: "Gilroy-R";
+        font-size: 3.5vw;
+    }
+}
+@media screen and (min-device-width: 767px) and (max-device-width: 1023px) { 
+/* STYLES HERE */
+.aws-btn {
+    width: 180px!important;
+
+    }
+    .magazine-desc{
+        font-family:"Gilroy-R";
+        font-size: 1.5vw;
+       
+
+    }
+    .magazine-title1{
+        font-family:"Gilroy-SB";
+        font-size: 2vw;
+        margin-top: 50px;
+    }
+    .magazine-title{
+        font-family:"Gilroy-SB";
+        font-size: 2vw;
+        margin-top: 100px;
+    }
+}
+@media screen and (min-device-width: 1024px)  { 
+/* STYLES HERE */
+.aws-btn {
+    width: 180px!important;
+    }
+    .magazine-desc{
+        font-family:"Gilroy-R";
+        font-size: 1.5vw;
+       
+    }
+    .magazine-title1{
+        font-family:"Gilroy-SB";
+        font-size: 2vw;
+        margin-top: 50px;
+    }
+    .magazine-title{
+        font-family:"Gilroy-SB";
+        font-size: 2vw;
+        margin-top: 100px;
+    }
 }

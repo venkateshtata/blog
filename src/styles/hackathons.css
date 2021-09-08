@@ -29,6 +29,9 @@
 
 
 .hackathons-cards{
-    display: flex;
-    flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
 }

@@ -46,9 +46,7 @@ export default function Skills() {
                     </Card.Body>
                 </Card>
 
-            </div>
-
-            <div className="skills-area">
+         
 
                 <Card border="dark" style={{ width: '25rem',height: '7rem', margin: '20px' }}>
                     <Card.Header>C++</Card.Header>
