@@ -383,3 +383,56 @@
     }
 
 }
+@media screen and (min-device-width: 360px) and (max-device-width: 767px){
+    .root-div{
+        /* flex-direction: row;   */
+    }
+    .root-wrapper{
+        margin-top: 0%;
+    }
+    .profile-pic-area{
+        width: 100%;
+        /* margin-left: 10%; */
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;    
+    }
+    .profile-pic-area img{
+        width: 100px!important;
+        height: 100px!important;
+    }
+    .sb-avatar{
+        height: 100px!important;
+        width: 100px!important;
+    }
+    .profile-text1 {
+        width: 30vh;
+        color: #16161d;
+        font-size: 5.5vw;
+        font-family: 'Gilroy-XB';
+        margin-bottom: 0%;
+        text-align: center;
+    }
+    .intro-text {
+        padding: 5%;
+        /* text-align: justify; */
+        font-size: 3.5vw;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .cv-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-device-width: 767px) and (max-device-width: 1023px) { 
+    /* STYLES HERE */
+}
+
+@media only screen and (max-device-width: 1024px) {
+    /* STYLES HERE */
+}

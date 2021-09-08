@@ -61,8 +61,11 @@
 }
 
 .multi-video{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
 
 .multi-video-single{

@@ -91,3 +91,50 @@
     /* width:80vw ; */
     margin-top: 40px;
 }
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .exp-title{
+        font-size: 5vw;
+        font-family: 'Gilroy-R';
+        margin-top: 10%;
+    }
+    .fFiRhQ {
+        width: 300px;
+        height: 200px;
+    }
+    .sub-head {
+        font-size: 2.2vw!important;
+    }
+    .OzyKl.OzyKl {
+        height: 13vh;
+    }
+    .exp-card-title{
+        font-size: 2.2vw!important;
+    }
+    .exp-card-role{
+        font-size: 2.2vw!important;
+    }
+    .skills-title {
+        font-size: 5vw!important;
+        font-family: 'Gilroy-SB';
+        margin-bottom: 20px!important;
+    }
+    
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
+    .sub-head {
+        font-size: 2.2vw!important;
+    }
+    .OzyKl.OzyKl {
+        height: 18vh;
+    }
+    .exp-card-title{
+        font-size: 2.2vw!important;
+    }
+    .exp-card-role{
+        font-size: 2.2vw!important;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+}

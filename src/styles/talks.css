@@ -28,8 +28,11 @@
 }
 
 .talks-video-container{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
 
 .talk-video{
@@ -113,4 +116,74 @@
     font-size: 1.8vw;
     /* width:80vw ; */
     margin-top: 10px;
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .projects-title {
+        font-size: 5vw!important;
+        font-family: 'Gilroy-SB';
+    }
+    .projects-wrapper {
+        margin-top: 40px!important;
+       
+    }
+    .project-title1 {
+        margin-top: 10px!important;
+        font-family: "Gilroy-SB";
+        font-size: 3vw!important;
+    }
+    .project-title{
+        margin-top: 10px!important;
+        font-family: "Gilroy-SB";
+        font-size: 4vw!important;
+    }
+    .project-desc {
+        margin-top: 5px;
+        font-family: "Gilroy-R";
+        font-size: 3.5vw!important;
+    }
+    .hackathons-wrapper {
+        margin-top: 0px!important;
+        margin-bottom: 50px!important;
+    }
+    .hackathon-title {
+        margin-bottom: 0%!important;
+        font-size: 5vw!important;
+    }
+    .papers-title{
+        font-size: 5vw!important;
+    }
+    .paper-title1 {
+        font-family: "Gilroy-SB";
+        font-size: 4vw!important;
+        margin-top: 10px!important;
+    }
+    .paper-title {
+        font-size: 4vw!important;
+    }
+    .magazines-wrapper{
+        margin-bottom: 50px!important;
+    }
+    .interests-title {
+        font-size: 5vw!important;
+    }
+    .interest-title {
+        font-size: 4vw!important;
+        margin-bottom: 10px!important;
+        margin-top: 10px!important;
+    }
+    .interest-desc {
+        font-size: 2.5vw!important;
+    }
+    
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) { 
+    .interest-title {
+        /* font-size: 4vw!important;
+        margin-bottom: 10px!important; */
+        margin-top: 10px!important;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
 }
