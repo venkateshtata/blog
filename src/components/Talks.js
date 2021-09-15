@@ -10,7 +10,7 @@ export default function Talks() {
         <p className="project-title1">Talk on Depth Perception with Computer Vision given at Mercedes Benz Research & Development India.</p>
         {/* <p className="project-desc">A tool that lets anyone create chatbots through a Drag-n-Drop interface written in React JS and deploy the bot in the platform of user’s choice. Later letting the user analyse the data collected over a dashboard as the bot is interacting with users. Helping recruiting organisations to avoid hundreds of phone calls for collecting the basic information from large numbers of people.</p> */}
         <div className="multi-video">
-        <iframe src='https://www.youtube.com/embed/2wES0YKTFSY'
+        <iframe src='https://www.youtube.com/embed/hZO5yc6q9s4'
                         frameborder='0'
                         allow='autoplay; encrypted-media'
                         allowfullscreen
