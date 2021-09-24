@@ -3,7 +3,7 @@ import '../styles/cardArea.css';
 import profilePic from '../assets/profile_pic.jpg';
 import Avatar from 'react-avatar';
 import Button from 'react-bootstrap/Button'
-import resume from '../assets/VenkateshTataCV.pdf'
+import resume from '../assets/VenkateshTata_CV.pdf'
 
 
 
