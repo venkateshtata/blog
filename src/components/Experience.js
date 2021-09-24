@@ -53,7 +53,7 @@ export default function Experience() {
                                 <div>
             
                                 <p className="exp-card-title"><b className="sub-head">Company:</b> Euclid.ai</p>
-                                <p className="exp-card-role"><b className="sub-head">Role:</b> Founder, Cloud Architect</p>
+                                <p className="exp-card-role"><b className="sub-head">Role:</b> Founder, ML Engineer Cloud Architect</p>
       
                                 </div>
                             </ImageEvent>
